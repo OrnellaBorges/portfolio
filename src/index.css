@@ -1,6 +1,12 @@
-body{
-    background-color: rgb(127, 34, 34);
-    color: green
+body {
+    background-color: black;
+
+}
+
+/* cible la balise html directement */
+:root {
+    color: red;
+    --ocean-blue: #1f1f38;
 }
 
 /* :root {
