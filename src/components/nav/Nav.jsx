@@ -1,14 +1,14 @@
 import React from 'react'
-//import './nav.css'
-import { styles } from './nav.css'
+import './nav.css'
+//import { styles } from './nav.css'
 
 const Nav = () => {
   return (
     <>
         <div>Nav</div>
-        <ul>
+        {/* <ul>
             <li className={styles.element}></li>
-        </ul>
+        </ul> */}
     </>
   )
 }
