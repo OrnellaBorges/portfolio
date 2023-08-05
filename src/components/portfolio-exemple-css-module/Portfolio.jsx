@@ -6,7 +6,7 @@ const Portfolio = () => {
     <>
         <div>Portfolio</div>
         <ul>
-            <li className={styles.element}></li>
+            <li className={styles.element}>dhfjkzhfjqe</li>
         </ul>
     </>
 )}
