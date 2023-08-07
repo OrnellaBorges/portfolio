@@ -13,6 +13,7 @@ header{
 
 .scroll__down{
     color: var(--color-primary);
+    border: 1px solid purple;
 }
 .scroll__down:hover{
     color: white;
@@ -26,6 +27,7 @@ header{
     display: flex;
     gap: 1.2rem;
     justify-content: center;
+    border: 1px solid pink;
 }
 
 /* ========================== SOCIALS ====================*/
@@ -38,6 +40,7 @@ header{
     position: absolute;
     left:0;
     bottom: 3rem;
+    border: 1px solid green;
 }
 
 .header__socials::after{
@@ -60,3 +63,36 @@ header{
     border: 1px solid red;
 }
 
+/*======================= Scroll down ======================= */
+
+
+.scroll__down {
+ position: absolute; 
+ right: -2.3rem;
+ bottom: 5rem; 
+ transform: rotate(90deg);
+ font-weight: 300;
+ font-size: 0.9rem;
+}
+
+/*======================= MEDIA QUERIES (med devices) ================ */
+
+@media screen and (max-width: 1024px){
+    header{
+        height: 68vh;
+    }
+}
+
+/*======================= MEDIA QUERIES (small devices)================ */
+
+
+@media screen and (max-width: 600px){
+    header{
+        height: 100vh;
+    }
+
+    .header__socials, .scroll__down {
+        display: none;
+    }
+
+}
