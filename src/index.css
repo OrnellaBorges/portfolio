@@ -31,7 +31,7 @@ body {
 
 
     /*effects*/
-    --trasition: all 400ms ease;
+    --transition: all 400ms ease;
 
     /* containers width*/
     --container-width-lg: 75%;
@@ -84,7 +84,7 @@ section{
 section > h2, section > h5 {
     text-align : center;
     color: var(--color-light);
-    background-color: red;
+    background-color: blue;
 }
 
 section > h2 {
