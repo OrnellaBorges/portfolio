@@ -2,13 +2,15 @@ header{
     height: 100vh;
     padding-top: 7rem;
     overflow: hidden;
+
+    border: 5px solid green;
 }
 
 .header__container{
     text-align: center;
     height: 100%;
     position:relative;
-    border: 1px solid yellow;
+    border: 5px solid yellow;
 }
 
 .scroll__down{
@@ -60,7 +62,8 @@ header{
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem;
-    border: 1px solid red;
+    
+    border: 5px solid red;
 }
 
 /*======================= Scroll down ======================= */
@@ -77,19 +80,19 @@ header{
 
 /*======================= MEDIA QUERIES (med devices) ================ */
 
-@media screen and (max-width: 1024px){
+/* @media screen and (max-width: 1024px){
     header{
         height: 68vh;
     }
-}
+} */
 
 /*======================= MEDIA QUERIES (small devices)================ */
 
 
 @media screen and (max-width: 600px){
-    header{
+    /* header{
         height: 100vh;
-    }
+    } */
 
     .header__socials, .scroll__down {
         display: none;

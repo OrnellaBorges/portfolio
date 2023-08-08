@@ -28,8 +28,8 @@
 }
 
 .about__cards{
-    display:grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);   
     gap: 1.5rem; 
     border: 1px solid green;
 
@@ -38,13 +38,10 @@
 .about__card{
     background: var(--color-bg-variant);
     border: 1px solid transparent;
-    border: 1px solid red;
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
-
-    transition: var(--transition
-    )
+    transition: var(--transition)
 }
 
 .about__card:hover{
@@ -77,7 +74,7 @@
 
 /*======================= MEDIA QUERIES (med devices) ================ */
 
-@media screen and (max-width: 1024px){
+/* @media screen and (max-width: 1024px){
     .about__container {
         grid-template-columns: 1fr;
         gap: 0;
@@ -91,29 +88,29 @@
     .about-content p {
         margin: 1rem 0 1.5rem; 
     }
-}
+}*/
+
 
 /*======================= MEDIA QUERIES (small devices)================ */
 
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .about__me {
         width: 65%;
         margin: 0 auto 3rem; 
     }
-}
- .about__cards {
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
- }
-
- .about__content {
-    text-align: center;
-
- }
-
- .about__content p {
-    margin: 1.5rem 0;
- }
-
+    .about__cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+     }
+    
+     .about__content {
+        text-align: center;
+    
+     }
+    
+     .about__content p {
+        margin: 1.5rem 0;
+     }  
+}  */
  
