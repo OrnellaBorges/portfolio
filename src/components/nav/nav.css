@@ -32,3 +32,17 @@ nav a.active{
 }
 
 
+/*======================= MEDIA QUERIES (med devices) ================ */
+
+@media screen and (max-width: 1024px){
+
+}
+
+/*======================= MEDIA QUERIES (small devices)================ */
+
+
+@media screen and (max-width: 600px){
+
+
+}
+
