@@ -58,9 +58,7 @@ body{
 }
 
 
-
-
-/*=======================GENERAL STYLES ======================*/
+/*======================= GENERAL STYLES ======================*/
 
 .container{
     width: var(--container-width-md-lg);
