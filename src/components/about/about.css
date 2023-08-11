@@ -2,12 +2,9 @@
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
-
-    border: 1px solid yellow
 }
 
 .about__me{
-    border: 1px solid orange;
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
@@ -31,8 +28,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);   
     gap: 1.5rem; 
-    border: 1px solid green;
-
 }
 
 .about__card{

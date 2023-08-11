@@ -1,5 +1,4 @@
 nav {
-    border : 1px solid red;
     background: rgba(0, 0, 0, 0.3);
     width: max-content;
     display: block;
@@ -28,8 +27,8 @@ nav a :hover {
 }
 
 nav a.active{
-    background: pink;
-    color: var(--color-white)
+    background: var(--color-primary);
+    color: var(--color-bg)
 }
 
 
