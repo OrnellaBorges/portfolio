@@ -25,14 +25,15 @@ const Header = () => {
         </div> */}
         <div className="me">
             <img src={Ornella} alt="me" />
+            <div className='container header__container'>
+                <h5>Hello I am</h5>
+                <h1>Ornella Borges</h1>
+                <h5 className="text-light">Fullstack Developer</h5>
+                <HeaderSocials/>
+                <CTA />
+            </div>
         </div>
-        <div className='container header__container'>
-            <h5>Hello I am</h5>
-            <h1>Ornella Borges</h1>
-            <h5 className="text-light">Fullstack Developer</h5>
-            <HeaderSocials/>
-            <CTA />
-        </div>
+        
 
     </header>
 )}

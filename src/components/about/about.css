@@ -24,9 +24,9 @@
     transition: var(--transition); */
 }
 
-.about__me-image:hover{
+/* .about__me-image:hover{
     transform: rotate(0)
-}
+} */
 
 .about__cards{
     display: grid;
@@ -88,19 +88,59 @@
         margin: 1rem 0 1.5rem; 
     }
 }
-/*======================= Gallery CSS================ */
-
-.aboutGallery__container {
-    background-color: yellow ;
+/*======================= Gallery CSS ================ */
+.gallery {
+    max-width: 1500px;
+    background-color: rgb(104, 3, 211) ;
+    padding: 100px 10px;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 1%;
-    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, 300px);
+    grid-auto-rows: 300px;
+    grid-gap:10px;
+    list-style-type: none;
+    justify-content: center;
 }
 
-.list-image{
+.profil-card {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid red;
+    transition: transform 0.4s ease-out;
+}
+
+.profil-img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+ul a img {
+    width: 100%;
+}
+
+.profil-info {
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    border-top: 1px solid #999;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.sentence {
+    font-size: 16px;
+    font-weight: 500;
+    font-style: italic;
+    color: orange
+}
+
+.profil-card:hover .profil-info {
+    transform: translate(0);
 }
 
 

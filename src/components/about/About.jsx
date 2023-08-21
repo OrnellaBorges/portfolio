@@ -4,7 +4,9 @@ import'./about.css'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
+
 import AboutGallery from './AboutGallery'
+import AboutGalleryDrole from './AboutGalleryDrole'
 
 
 
@@ -16,6 +18,8 @@ const About = () => {
         <h2>About Me</h2>
 
         <AboutGallery />
+        
+        <AboutGalleryDrole />
 
             <div className="about__content">
                 <div className="about__cards">
