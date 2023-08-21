@@ -1,6 +1,7 @@
 import React from 'react'
 import'./about.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/Ornella B_BD-1.jpg'
+import ME2 from '../../assets/Ornella B_BD-6.jpg'
 
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
@@ -18,7 +19,10 @@ const About = () => {
         <div className="container about__container">
             <div className="about__me">
                 <div className="about__me-image">
-                    <img src={ME} alt=""></img>
+                    <img src={ME} alt="me2"></img>
+                </div>
+                <div className="about__me-image">
+                    <img src={ME2} alt="me2"></img>
                 </div>
             </div>
 

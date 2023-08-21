@@ -4,13 +4,13 @@ import "./header.css"
 
 // IMPORT COMPONENTS
 import CTA from './CTA'
-import ME from '../../assets/me.png'
+import Ornella from '../../assets/Ornella-nb.jpg'
 import HeaderSocials from './HeaderSocials'
 
 const Header = () => {
   return (
     <header>
-        <div className="container header__container">
+        {/* <div className="container header__container">
             <h5>Hello I am</h5>
             <h1>Ornella Borges</h1>
             <h5 className="text-light">Fullstack Developer</h5>
@@ -18,11 +18,22 @@ const Header = () => {
             <HeaderSocials/>
 
             <div className="me">
-                <img src={ME} alt="me" />
+                <img src={OBCOLPNG} alt="me" />
             </div>
 
             <a href='#contact' className='scroll__down'>Scroll Down</a>
+        </div> */}
+        <div className="me">
+            <img src={Ornella} alt="me" />
         </div>
+        <div className='container header__container'>
+            <h5>Hello I am</h5>
+            <h1>Ornella Borges</h1>
+            <h5 className="text-light">Fullstack Developer</h5>
+            <HeaderSocials/>
+            <CTA />
+        </div>
+
     </header>
 )}
 

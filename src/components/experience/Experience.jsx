@@ -1,7 +1,15 @@
 import React from 'react'
 import './experience.css'
 
+// import Icons
 import {BsPatchCheckFill} from 'react-icons/bs'
+import {AiFillHtml5} from 'react-icons/ai'
+import {FaCss3Alt} from 'react-icons/fa'
+import {SiTailwindcss} from 'react-icons/si'
+import {SiJavascript} from 'react-icons/si'
+import {FaBootstrap} from 'react-icons/fa'
+
+
 
 
 const Experience = () => {

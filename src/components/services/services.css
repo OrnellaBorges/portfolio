@@ -12,7 +12,7 @@
     transition: var(--transition);
 }
 
-.service:hover{
+.service:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
@@ -36,7 +36,7 @@
     padding: 2rem;
 }
 
-.service__list {
+.service__list li {
     display: flex;
     gap: 1rem;
     margin-bottom: 0.8rem;
@@ -54,11 +54,10 @@
 /*======================= MEDIA QUERIES (med devices) ================ */
 
 @media screen and (max-width: 1024px){
-    .services__container {
+    .service__container {
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
     }
-
     .service {
         height: auto; 
     }
