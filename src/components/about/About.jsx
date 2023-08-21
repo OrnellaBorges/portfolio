@@ -1,11 +1,10 @@
 import React from 'react'
 import'./about.css'
-import ME from '../../assets/Ornella B_BD-1.jpg'
-import ME2 from '../../assets/Ornella B_BD-6.jpg'
 
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
+import AboutGallery from './AboutGallery'
 
 
 
@@ -16,16 +15,7 @@ const About = () => {
         <h5>Get To Know</h5>
         <h2>About Me</h2>
 
-        <div className="container about__container">
-            <div className="about__me">
-                <div className="about__me-image">
-                    <img src={ME} alt="me2"></img>
-                </div>
-                <div className="about__me-image">
-                    <img src={ME2} alt="me2"></img>
-                </div>
-            </div>
-
+        <AboutGallery />
 
             <div className="about__content">
                 <div className="about__cards">
@@ -54,7 +44,6 @@ const About = () => {
                 <a href='#contact' className='btn btn-primary'>Let's talk</a>
 
             </div>
-        </div>
     </section>
   )
 }

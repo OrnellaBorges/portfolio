@@ -88,6 +88,20 @@
         margin: 1rem 0 1.5rem; 
     }
 }
+/*======================= Gallery CSS================ */
+
+.aboutGallery__container {
+    background-color: yellow ;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1%;
+    overflow: hidden;
+}
+
+.list-image{
+    width: 100%;
+}
 
 
 /*======================= MEDIA QUERIES (small devices)================ */
