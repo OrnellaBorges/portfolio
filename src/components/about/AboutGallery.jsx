@@ -9,8 +9,7 @@ const galleryDroleData = ['Ornella B_BD-6.jpg','Ornella B_BD-6.jpg','Ornella B_B
 
 const AboutGalleryDrole = () => {
   return (
-    <div id='aboutGallery'>
-        <ul className="gallery">
+        <ul id='aboutGallery 'className="tata about-gallery">
 
            {/*  MAPER LA LISTE  */}
             <li className="profil-card">
@@ -37,7 +36,6 @@ const AboutGalleryDrole = () => {
                 </div>
             </li>
         </ul>
-    </div>
   )
 }
 

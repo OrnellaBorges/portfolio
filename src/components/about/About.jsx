@@ -21,11 +21,10 @@ const About = () => {
         <h5>Get To Know</h5>
         <h2>About Me</h2>
 
-        <div className="about--subcontainer">
-            <AboutGallery />
-            
+        <div className="toto">
+            <AboutGallery className='tata'/>
             {/* <AboutGalleryDrole /> */}
-            <div className="about-content">
+            <div className="titi">
                 <AboutCards />
                 <AboutText />
             </div>
