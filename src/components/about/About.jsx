@@ -1,4 +1,6 @@
 import React from 'react'
+
+//IMPORT CSS
 import'./about.css'
 
 
@@ -23,7 +25,6 @@ const About = () => {
 
         <div className="toto">
             <AboutGallery className='tata'/>
-            {/* <AboutGalleryDrole /> */}
             <div className="titi">
                 <AboutCards />
                 <AboutText />

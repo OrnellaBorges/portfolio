@@ -7,7 +7,7 @@ import ME4 from '../../assets/Ornella B_BD-7.jpg'
 
 const galleryDroleData = ['Ornella B_BD-6.jpg','Ornella B_BD-6.jpg','Ornella B_BD-6.jpg','Ornella B_BD-6.jpg']
 
-const AboutGalleryDrole = () => {
+const AboutGallery = () => {
   return (
         <ul id='aboutGallery 'className="tata about-gallery">
 
@@ -39,4 +39,4 @@ const AboutGalleryDrole = () => {
   )
 }
 
-export default AboutGalleryDrole
+export default AboutGallery
