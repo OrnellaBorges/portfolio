@@ -1,7 +1,15 @@
 .about__container{
-    display: grid;
+    /* display: grid;
     grid-template-columns: 35% 50%;
-    gap: 10%;
+    gap: 10%; */
+    margin: 2rem 2% 0;
+}
+
+.about__subcontainer {
+    display: flex;
+    justify-content: center;
+    border: 3px solid green;
+    background-color: aqua;
 }
 
 .about__me{
@@ -50,8 +58,8 @@
 }
 
 .about__icon{
-    color: var(--color-primary);
-    font-size:1.4rem;
+    color: white;
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
 
@@ -59,10 +67,17 @@
     font-size: 0.95rem;
 }
 
-
+.link {
+    color: red
+}
 .about__card small{
     font-size: 0.7rem;
     color: var(--color-light);
+}
+
+.about-content{
+    
+    border: 2px solid red;
 }
 
 .about_content p {
@@ -90,17 +105,19 @@
 }
 /*======================= Gallery CSS ================ */
 .gallery {
-    max-width: 1500px;
+    width: 40%;
     background-color: transparent ;
-    padding: 100px 10px;
+    /* padding: 100px 10px; */
     margin: 0 auto;
     display: grid;
     /* place-items: center; */
-    grid-template-columns: repeat(auto-fit, 300px);
-    grid-auto-rows: 300px;
-    grid-gap:10px;
+    grid-template-columns: repeat(2, 260px);
+    grid-auto-rows: 260px;
+    grid-gap: 2%;
     list-style-type: none;
     justify-content: center;
+    background-color: yellow;
+
 }
 
 .profil-card {
@@ -160,6 +177,7 @@ ul a img {
     
      .about__content {
         text-align: center;
+        margin: 0 2%;
      }
     
      .about__content p {
