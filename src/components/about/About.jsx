@@ -19,7 +19,7 @@ const About = () => {
 
         <AboutGallery />
         
-        <AboutGalleryDrole />
+        {/* <AboutGalleryDrole /> */}
 
             <div className="about__content">
                 <div className="about__cards">

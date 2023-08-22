@@ -41,7 +41,10 @@ header{
     left:0;
     bottom: 3rem;
     padding-top: 2%;
+
+    /*Animation*/
 }
+
 
 /* .header__socials::after{
     content:'';

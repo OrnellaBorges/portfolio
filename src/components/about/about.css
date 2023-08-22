@@ -91,10 +91,11 @@
 /*======================= Gallery CSS ================ */
 .gallery {
     max-width: 1500px;
-    background-color: rgb(104, 3, 211) ;
+    background-color: transparent ;
     padding: 100px 10px;
     margin: 0 auto;
     display: grid;
+    /* place-items: center; */
     grid-template-columns: repeat(auto-fit, 300px);
     grid-auto-rows: 300px;
     grid-gap:10px;
@@ -106,7 +107,7 @@
     position: relative;
     overflow: hidden;
     cursor: pointer;
-    border: 1px solid red;
+    border: 1px solid transparent;
     transition: transform 0.4s ease-out;
 }
 
@@ -125,18 +126,18 @@ ul a img {
     bottom: 0;
     width: 100%;
     padding: 10px;
-    background-color: green;
-    border-top: 1px solid #999;
+    background-color: rgb(22, 22, 43);
+    border-top: 1px solid transparent;
     text-align: center;
     transform: translateY(100%);
     transition: transform 0.3s ease-in-out;
 }
 
-.sentence {
+.profil-sentence {
     font-size: 16px;
     font-weight: 500;
     font-style: italic;
-    color: orange
+    color: white
 }
 
 .profil-card:hover .profil-info {
@@ -159,7 +160,6 @@ ul a img {
     
      .about__content {
         text-align: center;
-    
      }
     
      .about__content p {
