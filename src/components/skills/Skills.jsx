@@ -14,6 +14,9 @@ import {SiTailwindcss} from 'react-icons/si'
 import {SiJavascript} from 'react-icons/si'
 import {FaBootstrap} from 'react-icons/fa'
 import {SiAdobephotoshop} from'react-icons/si'
+import {SiAdobeillustrator} from 'react-icons/si'
+import {BsFiletypeSql} from 'react-icons/bs'
+
 //import {SiAdobephotoshop} from'react-icons/si'
 //import {SiAdobephotoshop} from'react-icons/si'
 
@@ -28,35 +31,35 @@ const Experience = () => {
                 <h3>Frontend Developpement</h3>
                 <div className="experience__content">
                     <article className='experience__detail'>
-                        <BsPatchCheckFill className='experience__details-icon'/>
+                        <AiFillHtml5 className='experience__details-icon'/>
                         <div>
                             <h4>HTML</h4>
                             <small className='text-light'>Experienced</small>
                         </div>
                     </article>
                     <article className='experience__detail'>
-                        <BsPatchCheckFill className='experience__details-icon'/>
+                        <FaCss3Alt className='experience__details-icon'/>
                         <div>
                             <h4>CSS</h4>
                             <small className='text-light'>Intermediate</small>
                         </div>
                     </article>
                     <article className='experience__detail'>
-                        <BsPatchCheckFill className='experience__details-icon'/>
+                        <SiJavascript className='experience__details-icon'/>
                         <div>
                             <h4>Javascript</h4>
                             <small className='text-light'>Intermediate</small>
                         </div>
                     </article>
                     <article className='experience__detail'>
-                        <BsPatchCheckFill className='experience__details-icon'/>
+                        <FaBootstrap className='experience__details-icon'/>
                         <div>
                             <h4>Bootstrap</h4>
                             <small className='text-light'>Experienced</small>
                         </div>
                     </article>
                     <article className='experience__detail'>
-                        <BsPatchCheckFill className='experience__details-icon'/>
+                        <SiTailwindcss className='experience__details-icon'/>
                         <div>
                             <h4>Tailwind</h4>
                             <small className='text-light'>Novice</small>
@@ -84,7 +87,7 @@ const Experience = () => {
                         </div>
                     </article>
                     <article className='experience__detail'>
-                        <BsPatchCheckFill className='experience__details-icon'/>
+                        <BsFiletypeSql className='experience__details-icon'/>
                         <div>
                             <h4>MySQL</h4>
                             <small className='text-light'>Intermediate</small>
@@ -93,7 +96,7 @@ const Experience = () => {
                     <article className='experience__detail'>
                         <BsPatchCheckFill className='experience__details-icon'/>
                         <div>
-                            <h4>MySQL</h4>
+                            <h4>NO NAME</h4>
                             <small className='text-light'>Intermediate</small>
                         </div>
                     </article>
@@ -111,6 +114,7 @@ const Experience = () => {
                         </div>
                     </article>
                     <article className='experience__detail'>
+                        <a href="https://getlogo.net/lectra-logo-vector-svg/" target="_blank"><img src="https://getlogo.net/wp-content/uploads/2021/09/lectra-logo-vector.png" /></a>
                         <BsPatchCheckFill className='experience__details-icon'/>
                         <div>
                             <h4>Gerber</h4>
@@ -125,7 +129,7 @@ const Experience = () => {
                         </div>
                     </article>
                     <article className='experience__detail'>
-                        <BsPatchCheckFill className='experience__details-icon'/>
+                        <SiAdobephotoshop className='experience__details-icon'/>
                         <div>
                             <h4>Photoshop</h4>
                             <small className='text-light'>Experienced</small>
@@ -139,7 +143,7 @@ const Experience = () => {
                         </div>
                     </article>
                     <article className='experience__detail'>
-                        <BsPatchCheckFill className='experience__details-icon'/>
+                        <SiAdobeillustrator className='experience__details-icon'/>
                         <div>
                             <h4>Illustrator</h4>
                             <small className='text-light'>Intermediate</small>
