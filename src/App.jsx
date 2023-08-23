@@ -24,12 +24,12 @@ function App() {
       {/* <Basic /> */}
       <Nav/>
       <About />
-      <Skills />
+      {/* <Skills />
       <Services />
       <Portfolio />
       <Testimonials />
       <Contact/>
-      <Footer/>
+      <Footer/> */}
     </>
   );
 }

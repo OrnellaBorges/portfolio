@@ -1,6 +1,4 @@
 import React from 'react'
-
-//IMPORT CSS
 import'./about.css'
 
 
@@ -10,7 +8,7 @@ import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
 
 //IMPORT COMPONENTS
-import AboutGallery from './AboutGallery'
+import AboutGalleryFlex from './AboutGalleryFlex'
 //import AboutGalleryDrole from './AboutGalleryDrole'
 import AboutText from './AboutText'
 import AboutCards from './AboutCard'
@@ -24,7 +22,8 @@ const About = () => {
         <h2>About Me</h2>
 
         <div className="toto">
-            <AboutGallery className='tata'/>
+            <AboutGalleryFlex className='totoChild'/>
+            
             <div className="titi">
                 <AboutCards />
                 <AboutText />

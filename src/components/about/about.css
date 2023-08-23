@@ -12,6 +12,23 @@
     border: 3px solid rgb(3, 233, 245);
 }
 
+.totoChild {
+border : 10px solid rgb(245, 136, 12);
+width: 45%;
+}
+
+.totoChild2 {
+    display: flex;
+    border : 10px solid rgb(137, 9, 222);
+    width : 100%;
+}
+
+ul > li {
+    width: 50%;
+    height: 50%;
+}
+
+
 .about__me{
     width: 100%;
     aspect-ratio: 1/1;
@@ -107,9 +124,14 @@
 .tata{
     border: 3px solid green;
     margin-bottom: 2%;
-    display: flex;
-    max-width: 50%; 
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: 300px 300px;
+    gap: 1%;
+    width: 50%; 
 }
+
+
 
 .tata2 {
     /* width: 40%; */
