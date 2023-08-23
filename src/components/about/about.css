@@ -1,51 +1,34 @@
-.about__container{
-    /* display: grid;
+.about__container {
+  /* display: grid;
     grid-template-columns: 35% 50%;
     gap: 10%; */
-    margin: 2rem 2% 0;
-    border: 4px solid salmon;
+  margin: 2rem 2% 0;
+  border: 4px solid salmon;
 }
 
 .toto {
-    display: flex;
-    justify-content: center;
-    border: 3px solid rgb(3, 233, 245);
+  display: flex;
+  /* justify-content: center;
+  border: 3px solid rgb(3, 233, 245); */
 }
 
-.totoChild {
-border : 10px solid rgb(245, 136, 12);
-width: 45%;
+.about__me {
+  width: 100%;
+  aspect-ratio: 1/1;
+  /* border-radius: 2rem; */
+  /* background: linear-gradient(45deg, transparent, var(--color-primary), transparent); */
+  display: flex;
+  gap: 4%;
+  place-items: center;
+  border: 1px solid red;
 }
 
-.totoChild2 {
-    display: flex;
-    border : 10px solid rgb(137, 9, 222);
-    width : 100%;
-}
-
-ul > li {
-    width: 50%;
-    height: 50%;
-}
-
-
-.about__me{
-    width: 100%;
-    aspect-ratio: 1/1;
-    /* border-radius: 2rem; */
-    /* background: linear-gradient(45deg, transparent, var(--color-primary), transparent); */
-    display: flex;
-    gap: 4%;
-    place-items: center;
-    border: 1px solid red;
-}
-
-.about__me-image{
-    border-radius: 4rem;
-    overflow: hidden;
-    width: 78%;
-    height: 50%;
-    /* transform: rotate(10deg);
+.about__me-image {
+  border-radius: 4rem;
+  overflow: hidden;
+  width: 78%;
+  height: 50%;
+  /* transform: rotate(10deg);
     transition: var(--transition); */
 }
 
@@ -53,175 +36,184 @@ ul > li {
     transform: rotate(0)
 } */
 
-.about__cards{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);   
-    gap: 1.5rem; 
+.about__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.about__card{
-    background: var(--color-bg-variant);
-    border: 1px solid transparent;
-    border-radius: 1rem;
-    padding: 2rem;
-    text-align: center;
-    transition: var(--transition)
+.about__card {
+  background: var(--color-bg-variant);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  transition: var(--transition);
+  width: 30%;
 }
 
-.about__card:hover{
-    background : transparent;
-    border-color: var(--color-primary-variant);
-    cursor: default;
+.about__card:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
 }
 
-.about__icon{
-    color: white;
-    font-size: 2rem;
-    margin-bottom: 1rem;
+.about__icon {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
-.about__card h5{
-    font-size: 0.95rem;
+.about__card h5 {
+  font-size: 0.95rem;
 }
 
 .link {
-    color: red
+  color: red;
 }
-.about__card small{
-    font-size: 0.7rem;
-    color: var(--color-light);
+.about__card small {
+  font-size: 0.7rem;
+  color: var(--color-light);
 }
 
 .titi {
-    border: 2px solid red;
-    margin-left: 2%;
+  /* border: 2px solid red;*/
+  margin-left: 2%;
+  width: 50%;
 }
 
 .about_content p {
-    margin: 2rem 0 2.6rem; 
-    color: var(--color-light);
+  margin: 2rem 0 2.6rem;
+  color: var(--color-light);
 }
-
 
 /*======================= MEDIA QUERIES (med devices) ================ */
 
-@media screen and (max-width: 1024px){
-    .about__container {
-        grid-template-columns: 1fr;
-        gap: 0;
-    }
+@media screen and (max-width: 1024px) {
+  .about__container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
 
-    .about__me{
-        width: 100%;
-        margin: 2rem auto 2rem;
-    }
+  .about__me {
+    width: 100%;
+    margin: 2rem auto 2rem;
+  }
 
-    .about-content p {
-        margin: 1rem 0 1.5rem; 
-    }
+  .about-content p {
+    margin: 1rem 0 1.5rem;
+  }
 }
 /*======================= Gallery CSS ================ */
-.tata{
-    border: 3px solid green;
-    margin-bottom: 2%;
-    display: grid;
-    grid-template-columns: repeat(2, 300px);
-    grid-template-rows: 300px 300px;
-    gap: 1%;
-    width: 50%; 
+.tata {
+  /* border: 3px solid green;
+  margin-bottom: 2%;
+  display: flex;
+  max-width: 50%;
+
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  grid-auto-rows: 300px;
+  grid-gap: 10px; */
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  width: 50%;
+  height: fit-content;
 }
 
-
-
 .tata2 {
-    /* width: 40%; */
-    /* padding: 100px 10px; */
-    max-width: 1500px;
-    margin: 0 auto;
-    display: grid;
-    /* place-items: center; */
-    grid-template-columns: repeat(2, 200px);
+  /* width: 40%; */
+  /* padding: 100px 10px; */
+  max-width: 1500px;
+  margin: 0 auto;
+  /* display: grid;
+    place-items: center; */
+  /* grid-template-columns: repeat(2, 200px);
     grid-auto-rows: 200px;
-    grid-gap: 10px;
-    list-style-type: none;
-    justify-content: center;
-    border : 5px solid purple;
+    grid-gap: 10px; */
+  list-style-type: none;
+  justify-content: center;
+  border: 5px solid purple;
 }
 
 .profil-card {
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-    border: 1px solid transparent;
-    transition: transform 0.4s ease-out;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  /* border: 1px solid transparent; */
+  transition: transform 0.4s ease-out;
+  aspect-ratio: 1/ 1;
+  display: flex;
 }
 
 .profil-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 ul a img {
-    width: 100%;
+  width: 100%;
 }
 
 .profil-info {
-    position:absolute;
-    bottom: 0;
-    width: 100%;
-    padding: 10px;
-    background-color: rgb(22, 22, 43);
-    border-top: 1px solid transparent;
-    text-align: center;
-    transform: translateY(100%);
-    transition: transform 0.3s ease-in-out;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(22, 22, 43);
+  border-top: 1px solid transparent;
+  text-align: center;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in-out;
 }
 
 .profil-sentence {
-    font-size: 16px;
-    font-weight: 500;
-    font-style: italic;
-    color: white
+  font-size: 16px;
+  font-weight: 500;
+  font-style: italic;
+  color: white;
 }
 
 .profil-card:hover .profil-info {
-    transform: translate(0);
+  transform: translate(0);
 }
-
 
 /*======================= MEDIA QUERIES (small devices)================ */
 
-
 @media screen and (max-width: 600px) {
-    .about__me {
-        width: 65%;
-        margin: 0 auto 3rem; 
-    }
+  .about__me {
+    width: 65%;
+    margin: 0 auto 3rem;
+  }
 
-    .toto{
-        flex-direction: column;
-        justify-content: center;
-    }
-    .about-gallery{
-        width: 100%;
-        flex-direction: column;
-    }
-    .gallery {
-        grid-template-columns: 1fr;
-    }
-    .about__cards {
-        grid-template-columns: 1fr 1fr;
-        gap: 1rem;
-     }
+  .toto {
+    flex-direction: column;
+    justify-content: center;
+  }
+  /* .about-gallery {
+    width: 100%;
+    flex-direction: column;
+  } */
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+  .about__cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
 
-     .about__content {
-        text-align: center;
-        margin: 0 2%;
-     }
-    
-     .about__content p {
-        margin: 1.5rem 0;
-     }  
+  .about__content {
+    text-align: center;
+    margin: 0 2%;
+  }
+
+  .about__content p {
+    margin: 1.5rem 0;
+  }
 }
- 
