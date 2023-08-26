@@ -1,4 +1,3 @@
-import React from "react";
 import "./about.css";
 
 //IMPORT ICONS FROM REACT_ICONS
@@ -10,28 +9,43 @@ import { PiStudentFill } from "react-icons/pi";
 
 //IMPORT COMPONENTS
 
-const AboutCards = () => {
+const tabs = [
+  {
+    icon: <GiBrain className="about__icon" />,
+    title: "Mindset",
+    desc: "Beautyful personality of course",
+  },
+  {
+    icon: <FaAward className="about__icon" />,
+    title: "Experience",
+    desc: "7+ Years Working",
+  },
+  {
+    icon: <PiStudentFill className="about__icon" />,
+    title: "Education",
+    desc: "5+ Years Studing",
+  },
+];
+
+const AboutCards = ({ handleChangeVisibilityAbout, indexAboutVisible }) => {
   return (
     <div className="about__content">
       <div className="about__cards">
-        <article className="about__card">
-          <FaAward className="about__icon" />
-          <h5>Experience</h5>
-          <small>7+ Years Working</small>
-        </article>
+        {tabs.map(({ icon, title, desc }, index) => (
+          <article
+            className={`about__card ${
+              indexAboutVisible === index ? "active" : ""
+            }`}
+            onClick={() => handleChangeVisibilityAbout(index)}
+            key={index}
+          >
+            {icon}
+            <h5>{title}</h5>
+            <small>{desc}</small>
+          </article>
+        ))}
 
-        <article className="about__card">
-          <PiStudentFill className="about__icon" />
-          <h5>Education</h5>
-          <small>5+ Years Studing</small>
-        </article>
-
-        <article className="about__card">
-          <GiBrain className="about__icon" />
-          <h5>Mindset</h5>
-          <small>Beautyful personality of course</small>
-          {/* <a className='link'>click here to know more</a> */}
-        </article>
+        {/* <a className='link'>click here to know more</a> */}
       </div>
     </div>
   );

@@ -3,7 +3,6 @@
     grid-template-columns: 35% 50%;
     gap: 10%; */
   margin: 2rem 2% 0;
-  border: 4px solid salmon;
 }
 
 .toto {
@@ -37,57 +36,54 @@
 } */
 
 .content-title {
-    text-align: center;
-    margin-bottom: 2%;
+  text-align: center;
+  margin-bottom: 2%;
 }
-.about__cards{
+.about__cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  border: 4px solid green;
 }
 
 .items {
-    margin-bottom: 2%;
+  margin-bottom: 2%;
 }
 
-.experience__cards{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    border-radius: 1rem;
-  }
+.experience__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 1rem;
+}
 
 .stack__card {
-    background: var(--color-bg-variant);
-    border: 1px solid #007aff;;
-    border-radius: 1rem;
-    padding: 2%;
-    text-align: center;
-    transition: var(--transition);
-    width: 30%;
-    border-radius: 1rem;
+  background: var(--color-bg-variant);
+  border: 1px solid #007aff;
+  border-radius: 1rem;
+  padding: 2%;
+  text-align: center;
+  transition: var(--transition);
+  width: 30%;
+  border-radius: 1rem;
 }
 
 .travel__card {
-    background: transparent;
-    border: 1px solid #007aff;;
-    border-radius: 1rem;
-    padding: 2%;
-    text-align: center;
-    transition: var(--transition);
-    width: 30%;
-    border-color: #007aff;
-    border-radius: 1rem;
+  background: transparent;
+  border: 1px solid #007aff;
+  border-radius: 1rem;
+  padding: 2%;
+  text-align: center;
+  transition: var(--transition);
+  width: 30%;
+  border-color: #007aff;
+  border-radius: 1rem;
 }
-
-
 
 .about__card {
   background: var(--color-bg-variant);
@@ -97,10 +93,14 @@
   text-align: center;
   transition: var(--transition);
   width: 30%;
+  cursor: pointer;
 }
 
-
 .about__card:hover {
+  border: 1px solid var(--color-light);
+}
+
+.about__card.active {
   background: var(--color-light);
   border-color: transparent;
   cursor: default;
@@ -120,7 +120,6 @@
   color: var(--color-light);
 }
 
-
 .about__card small {
   font-size: 0.7rem;
   color: var(--color-light);
@@ -132,10 +131,6 @@
   width: 50%;
 }
 
-.content-container{
-    border: 4px solid yellow;
-}
-
 .about_content p {
   margin: 2rem 0 2.6rem;
   color: var(--color-light);
@@ -145,59 +140,56 @@
 } */
 
 .education {
-    background-color: var(--color-bg-variant);
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    
+  background-color: var(--color-bg-variant);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .stack-container {
-    display: flex;border: 
-    3px solid red;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 30%;
+  display: flex;
+  border: 3px solid red;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
 }
 .travel-container {
-    display: flex;
-    border: 3px solid red;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 30%;
+  display: flex;
+  border: 3px solid red;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
 }
 
 .stack-container li {
-    padding: 2px;
+  padding: 2px;
 }
 
 .education-items {
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2%;
 }
 .container-logo {
-    width: 20%;
+  width: 20%;
 }
 .education-icons {
-    color: white;
-    font-size: 2rem;
+  color: white;
+  font-size: 2rem;
 }
 
-.mindset-content{
-    text-align: center;
-
+.mindset-content {
+  text-align: center;
 }
 
-.btn-container{
-    display: flex;
-    justify-content: center;
-    margin-top: 2%;
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
 }
 
 /*======================= Gallery CSS ================ */
@@ -215,8 +207,9 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
-  width: 50%;
+  width: 100%;
   height: fit-content;
+  margin-right: 20px;
 }
 
 .tata2 {
@@ -241,14 +234,12 @@
   /* border: 1px solid transparent; */
   transition: transform 0.4s ease-out;
   aspect-ratio: 1/ 1;
-
 }
 
 .profil-img {
   width: 100%;
   object-fit: cover;
 }
-
 
 ul a img {
   width: 100%;
@@ -280,34 +271,37 @@ ul a img {
 /*======================= MEDIA QUERIES (med devices) ================ */
 
 @media screen and (max-width: 1024px) {
-    .about__container {
-      grid-template-columns: 1fr;
-      gap: 0;
-    }
-  
-    .about__me {
-      width: 100%;
-      margin: 2rem auto 2rem;
-    }
-  
-    .about-content p {
-      margin: 1rem 0 1.5rem;
-    }
+  .about__container {
+    grid-template-columns: 1fr;
+    gap: 0;
   }
 
-  .toto {
-    justify-content: center;
-  }
-
-
-  .titi{
+  .about__me {
     width: 100%;
-    margin-left: 0;
+    margin: 2rem auto 2rem;
   }
 
-  .gallery{
+  .about-content p {
+    margin: 1rem 0 1.5rem;
+  }
+
+  .tata {
     display: none;
   }
+}
+
+.toto {
+  justify-content: center;
+}
+
+.titi {
+  width: 100%;
+  margin-left: 0;
+}
+
+.gallery {
+  display: none;
+}
 
 /*======================= MEDIA QUERIES (small devices)================ */
 
@@ -326,10 +320,7 @@ ul a img {
     flex-direction: column;
   } */
 
-  .tata{
-    display: none;
-  }
-/*   .gallery {
+  /*   .gallery {
     grid-template-columns: 1fr;
   } */
   .about__cards {

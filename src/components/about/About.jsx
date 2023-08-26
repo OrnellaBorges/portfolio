@@ -1,4 +1,4 @@
-import React from "react";
+import { useState } from "react";
 
 //IMPORT CSS
 import "./about.css";
@@ -15,6 +15,8 @@ import AboutText from "./AboutText";
 import AboutCards from "./AboutCard";
 
 const About = () => {
+  const [indexAboutVisible, setIndexAboutVisible] = useState(0);
+
   return (
     <section id="about" className="about__container">
       <h5>Get To Know</h5>
@@ -23,8 +25,11 @@ const About = () => {
       <div className="toto">
         <AboutGallery />
         <div className="titi">
-          <AboutCards />
-          <AboutText />
+          <AboutCards
+            handleChangeVisibilityAbout={setIndexAboutVisible}
+            indexAboutVisible={indexAboutVisible}
+          />
+          <AboutText indexAboutVisible={indexAboutVisible} />
         </div>
       </div>
     </section>
