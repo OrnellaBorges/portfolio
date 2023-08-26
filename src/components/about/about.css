@@ -36,28 +36,73 @@
     transform: rotate(0)
 } */
 
-.about__cards {
+.content-title {
+    text-align: center;
+    margin-bottom: 2%;
+}
+.about__cards{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  border: 4px solid green;
 }
+
+.items {
+    margin-bottom: 2%;
+}
+
+.experience__cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 1rem;
+  }
+
+.stack__card {
+    background: var(--color-bg-variant);
+    border: 1px solid #007aff;;
+    border-radius: 1rem;
+    padding: 2%;
+    text-align: center;
+    transition: var(--transition);
+    width: 30%;
+    border-radius: 1rem;
+}
+
+.travel__card {
+    background: transparent;
+    border: 1px solid #007aff;;
+    border-radius: 1rem;
+    padding: 2%;
+    text-align: center;
+    transition: var(--transition);
+    width: 30%;
+    border-color: #007aff;
+    border-radius: 1rem;
+}
+
+
 
 .about__card {
   background: var(--color-bg-variant);
   border: 1px solid transparent;
   border-radius: 1rem;
-  padding: 2rem;
+  padding: 2%;
   text-align: center;
   transition: var(--transition);
   width: 30%;
 }
 
+
 .about__card:hover {
-  background: transparent;
-  border-color: var(--color-primary-variant);
+  background: var(--color-light);
+  border-color: transparent;
   cursor: default;
 }
 
@@ -72,8 +117,10 @@
 }
 
 .link {
-  color: red;
+  color: var(--color-light);
 }
+
+
 .about__card small {
   font-size: 0.7rem;
   color: var(--color-light);
@@ -85,28 +132,74 @@
   width: 50%;
 }
 
+.content-container{
+    border: 4px solid yellow;
+}
+
 .about_content p {
   margin: 2rem 0 2.6rem;
   color: var(--color-light);
 }
+/* .experience {
+    
+} */
 
-/*======================= MEDIA QUERIES (med devices) ================ */
-
-@media screen and (max-width: 1024px) {
-  .about__container {
-    grid-template-columns: 1fr;
-    gap: 0;
-  }
-
-  .about__me {
-    width: 100%;
-    margin: 2rem auto 2rem;
-  }
-
-  .about-content p {
-    margin: 1rem 0 1.5rem;
-  }
+.education {
+    background-color: var(--color-bg-variant);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
 }
+
+.stack-container {
+    display: flex;border: 
+    3px solid red;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+.travel-container {
+    display: flex;
+    border: 3px solid red;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.stack-container li {
+    padding: 2px;
+}
+
+.education-items {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2%;
+}
+.container-logo {
+    width: 20%;
+}
+.education-icons {
+    color: white;
+    font-size: 2rem;
+}
+
+.mindset-content{
+    text-align: center;
+
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
 /*======================= Gallery CSS ================ */
 .tata {
   /* border: 3px solid green;
@@ -148,14 +241,14 @@
   /* border: 1px solid transparent; */
   transition: transform 0.4s ease-out;
   aspect-ratio: 1/ 1;
-  display: flex;
+
 }
 
 .profil-img {
   width: 100%;
-  height: 100%;
   object-fit: cover;
 }
+
 
 ul a img {
   width: 100%;
@@ -184,6 +277,34 @@ ul a img {
   transform: translate(0);
 }
 
+/*======================= MEDIA QUERIES (med devices) ================ */
+
+@media screen and (max-width: 1024px) {
+    .about__container {
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
+  
+    .about__me {
+      width: 100%;
+      margin: 2rem auto 2rem;
+    }
+  
+    .about-content p {
+      margin: 1rem 0 1.5rem;
+    }
+  }
+
+  .toto {
+    justify-content: center;
+  }
+
+
+  .titi{
+    width: 100%;
+    margin-left: 0;
+  }
+
 /*======================= MEDIA QUERIES (small devices)================ */
 
 @media screen and (max-width: 600px) {
@@ -200,6 +321,10 @@ ul a img {
     width: 100%;
     flex-direction: column;
   } */
+
+  .tata{
+    display: none;
+  }
   .gallery {
     grid-template-columns: 1fr;
   }

@@ -1,22 +1,101 @@
 import React from 'react'
 import "./about.css"
 
-const AboutText = ()=>{
+
+// IMPORT ICONS
+import {GiDiploma} from 'react-icons/gi'
+//import {FaCubesStacked} from 'react-icons/fa'
+import {LuPlane} from 'react-icons/lu'
+import {PiEyeLight} from 'react-icons/pi'
+import {PiEyeClosedLight} from 'react-icons/pi'
+
+
+//IMPORTATION IMAGES
+import Shield from "../../assets/shield.png";
+
+const AboutText = ()=> {
     return (
-        <div className= "education-container">
-            <h2 className="education-title">MY EXPERIENCE: SLIDER COMPONENT A LA PLACE DES BALISES P</h2>
+        <div className= " content-container">
+            <h2 className="content-title">MY EXPERIENCE:</h2>
             {/* //mettre un slider de text et d'image*/}
-            <div className="education-slider">
-                <div className="education-slider-image-container">
-                    <img className = "" src="" alt="" />
-                </div> 
-                <p>Siplec // Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad placeat voluptatibus sit nulla commodi modi maxime rem distinctio, qui eum exercitationem ipsa repudiandae, voluptatem quaerat illo fugit impedit? Facilis, est!</p>
-                <p>TEXEUROP // Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure aliquid, quae, impedit asperiores dolorem eius illum repellat assumenda fuga fugiat saepe. Nesciunt commodi obcaecati corporis molestias laudantium minima delectus fugit?</p>
-                            
+            <ul className="experience content-text">
+                <li className='items'>
+                    <h4>Siplec E.Leclerc(Paris) 2016-2020 - Modéliste </h4>
+                    <p className='description'>Chargée de concevoir des vêtements... collections...blalalalala</p>
+                    <div className='experience__cards'>
+                        <ul className="stack__card">
+                            <li><LuPlane /></li>
+                            <li>Gerber</li>
+                            <li>Adobe suite</li>
+                            {/* <li><a><PiEyeClosedLight /></a></li>
+                            <li><a><PiEyeClosedLight /></a></li> */}
+                        </ul>
+                        <ul className=" travel__card ">
+                            <li><LuPlane /> </li>
+                            <li>India</li>
+                            {/* <li><a><PiEyeClosedLight /></a></li>
+                            <li><a><PiEyeClosedLight /></a></li> */}
+                        </ul>
+                    </div>
+                    
+                    {/* <p><a href="" className="link knowMore"> Know more</a></p> */}
+                </li>
+                <li className='items'>
+                <h4>Texeurop (Wambrechie) 2020-2023 - Modéliste 3D</h4>
+                    <p className='description'>Chargée de concevoir des vêtements... collections...blalalalala</p>
+                    <div className='experience__cards'>
+                        <ul className="stack__card">
+                            <li><LuPlane /></li>
+                            <li>CLO3D</li>
+                            <li>Marvelous Designer</li>
+                            <li>Lectra</li>
+                            <li>Adobe suite</li>
+                            {/* <li><a><PiEyeClosedLight /></a></li>
+                            <li><a><PiEyeClosedLight /></a></li> */}
+                        </ul>
+                        <ul className=" travel__card ">
+                            <li><LuPlane /> </li>
+                            <li>Bengladesh</li>
+                            <li>Turkey</li>
+                            {/* <li><a><PiEyeClosedLight /></a></li>
+                            <li><a><PiEyeClosedLight /></a></li> */}
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+
+
+            <h2 className="content-title">MY STUDIES:</h2>
+            <ul className=" education content-text">
+                <li className='education-items'>
+                    {/*<div className="container-logo">
+                                            <img className="educationLogo" src={Shield} alt="3wa Logo"/> 
+                                        </div>
+                    */}
+                     <p className='education-icons'><GiDiploma /></p>
+                     <p>3WA</p>
+                </li>
+                <li className='education-items'>
+                    <p className='education-icons'><GiDiploma /></p>
+                    <p>BTS MMV</p>
+                </li>
+                <li className='education-items'>
+                    <p className='education-icons'><GiDiploma /></p>
+                    <p>DMA</p>
+                </li>
+                <li className='education-items'>
+                    <p className='education-icons'><GiDiploma /></p>
+                    <p>BAC L</p>
+                </li>
+            </ul>
+            <div className="mindset-content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur odit rem qui ad quia omnis eligendi nulla molestias modi aspernatur ipsum nam saepe esse, eos doloremque dolores animi quae sequi labore voluptates libero debitis. Aut, earum. Officiis assumenda recusandae, consequuntur nihil enim doloremque adipisci fugiat perspiciatis distinctio obcaecati nisi cupiditate at illo sunt et delectus numquam, consectetur est, explicabo hic. Eaque modi expedita iusto quasi eum aspernatur est, neque doloribus necessitatibus itaque dolores, consequuntur doloremque inventore molestias eius earum dignissimos aliquid rerum distinctio odio fugiat. Nulla repellat, corrupti fugiat a illum omnis explicabo molestiae at unde quod natus totam qui.</p>
+            </div>
+
+            <div className="btn-container"> 
                 <a href='#contact' className='btn btn-primary'>Let's talk</a>
             </div>
         </div>
-        
     )
 }
 

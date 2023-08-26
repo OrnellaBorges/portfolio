@@ -80,8 +80,13 @@ body{
 }
 
 
-h1, h2, h3, h4, h5{
+h1, h2, h3, h5{
     font-weight: 500;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 20px;
 }
 
 h1{
@@ -112,9 +117,12 @@ a {
     /*border: 1px solid yellow;*/
 }
 
+
 a:hover {
     color: var(--color-white);
 }
+
+
 
 .btn {
     width: max-content;
