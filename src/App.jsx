@@ -21,11 +21,11 @@ function App() {
       <Nav />
       <About />
       <Skills />
-      <Services />
+      {/* <Services /> */}
       <Portfolio />
-      {/*<Testimonials />
+      {/*<Testimonials />*/}
       <Contact/>
-      <Footer/> */}
+      <Footer/> 
     </>
   );
 }

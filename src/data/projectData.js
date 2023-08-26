@@ -5,7 +5,7 @@ import IMG4 from '../assets/portfolio4.jpg'
 import IMG5 from '../assets/portfolio5.png'
 import IMG6 from '../assets/portfolio6.jpg' */
 import SASS from '../assets/Sass.png'
-import B4Y from '../assets/b4y.jpeg'
+import B4Y from '../assets/b4y.jpg'
 import FoodHero from '../assets/fh.png'
 //import Sushi from '../assets/sushi.png'
 
