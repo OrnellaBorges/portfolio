@@ -305,6 +305,10 @@ ul a img {
     margin-left: 0;
   }
 
+  .gallery{
+    display: none;
+  }
+
 /*======================= MEDIA QUERIES (small devices)================ */
 
 @media screen and (max-width: 600px) {
@@ -325,9 +329,9 @@ ul a img {
   .tata{
     display: none;
   }
-  .gallery {
+/*   .gallery {
     grid-template-columns: 1fr;
-  }
+  } */
   .about__cards {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;

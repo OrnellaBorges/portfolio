@@ -89,6 +89,7 @@ const AboutText = ()=> {
                 </li>
             </ul>
             <div className="mindset-content">
+                <h2 className="content-title">MINDSET:</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur odit rem qui ad quia omnis eligendi nulla molestias modi aspernatur ipsum nam saepe esse, eos doloremque dolores animi quae sequi labore voluptates libero debitis. Aut, earum. Officiis assumenda recusandae, consequuntur nihil enim doloremque adipisci fugiat perspiciatis distinctio obcaecati nisi cupiditate at illo sunt et delectus numquam, consectetur est, explicabo hic. Eaque modi expedita iusto quasi eum aspernatur est, neque doloribus necessitatibus itaque dolores, consequuntur doloremque inventore molestias eius earum dignissimos aliquid rerum distinctio odio fugiat. Nulla repellat, corrupti fugiat a illum omnis explicabo molestiae at unde quod natus totam qui.</p>
             </div>
 
