@@ -3,27 +3,23 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 
-
 //IMPORT COMPONENTS
-import Header from './components/header/Header'
-import Nav from './components/nav/Nav'
-import About from './components/about/About'
-import Skills from './components/skills/Skills'
-import Services from './components/services/Services'
-import Portfolio from './components/portfolio/Portfolio'
-import Testimonials from './components/testimonials/Testimonials'
-import Contact from './components/contact/Contact'
-import Footer from './components/footer/Footer'
-//import Basic from './components/basic/Basic.'
-
+import Header from "./components/header/Header";
+import Nav from "./components/nav/Nav";
+import About from "./components/about/About";
+import Skills from "./components/skills/Skills";
+import Services from "./components/services/Services";
+import Portfolio from "./components/portfolio/Portfolio";
+import Testimonials from "./components/testimonials/Testimonials";
+import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
     <>
-      <Header/>
-      {/* <Basic /> */}
-      {/* <Nav/> */}
-      {/*<About />*/}
+      <Header />
+      <Nav />
+      <About />
       <Skills />
       <Services />
       <Portfolio />
