@@ -23,11 +23,11 @@ function App() {
       <Header/>
       {/* <Basic /> */}
       {/* <Nav/> */}
-      <About />
-      {/* <Skills />
+      {/*<About />*/}
+      <Skills />
       <Services />
       <Portfolio />
-      <Testimonials />
+      {/*<Testimonials />
       <Contact/>
       <Footer/> */}
     </>
