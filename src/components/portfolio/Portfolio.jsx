@@ -2,6 +2,8 @@ import React from 'react'
 import './portfolio.css'
 import {data} from '../../data/projectData'
 
+import {CgUnavailable} from 'react-icons/cg'
+
 const Portfolio = () => {
   return (
     <>
@@ -17,10 +19,15 @@ const Portfolio = () => {
                                     <img src={image} alt={title}/>
                                 </div>
                                 <h3>{title}</h3>
+                                <small>Work in progess</small>
+
                                 <div className="portfolio__item-cta">
 {/*                                     <a href={github} className='btn'>Github</a>
                                     <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a> */}
                                 </div>
+                                <a href="#contact" className="btn btn-primary">
+                                    Let&apos;s talk
+                                </a>
                             </article>
                         )
                     })

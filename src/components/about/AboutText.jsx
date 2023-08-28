@@ -2,10 +2,10 @@ import "./about.css";
 
 // IMPORT ICONS
 import { GiDiploma } from "react-icons/gi";
-//import {FaCubesStacked} from 'react-icons/fa'
+import {BsStackOverflow} from 'react-icons/bs';
 import { LuPlane } from "react-icons/lu";
-import { PiEyeLight } from "react-icons/pi";
-import { PiEyeClosedLight } from "react-icons/pi";
+//import { PiEyeLight } from "react-icons/pi";
+//import { PiEyeClosedLight } from "react-icons/pi";
 
 //IMPORTATION IMAGES
 import Shield from "../../assets/shield.png";
@@ -17,19 +17,15 @@ const AboutText = ({ indexAboutVisible }) => {
         <div className="mindset-content">
           <h2 className="content-title">MINDSET:</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-            odit rem qui ad quia omnis eligendi nulla molestias modi aspernatur
-            ipsum nam saepe esse, eos doloremque dolores animi quae sequi labore
-            voluptates libero debitis. Aut, earum. Officiis assumenda
-            recusandae, consequuntur nihil enim doloremque adipisci fugiat
-            perspiciatis distinctio obcaecati nisi cupiditate at illo sunt et
-            delectus numquam, consectetur est, explicabo hic. Eaque modi
-            expedita iusto quasi eum aspernatur est, neque doloribus
-            necessitatibus itaque dolores, consequuntur doloremque inventore
-            molestias eius earum dignissimos aliquid rerum distinctio odio
-            fugiat. Nulla repellat, corrupti fugiat a illum omnis explicabo
-            molestiae at unde quod natus totam qui.
+            Hello moi c'est Ornella, bienvenue sur mon espace de présentation.
+            Ancienne modéliste dans la mode j'ai découvert le métier de Developeur Front il y a 6 ans et aujourd'hui j'ai sauté le pas c'est devenu mon nouveau métier.
+            J'aime beaucoup ce nouveau projet de ma vie professionnel, il ressemble fortement à mon ancien métier et en plus on en apprend tous les jours. 
+            Je suis quelqu'un de curieux et d'engagé, j'aime entreprendre et apprendre.
+            Je fourmille d'idées constament. Je suis passionée et je me plait dans le métier de Developeur front car il est complet à la fois technique et créatif. 
+            Vous êtes ici sur ma version 1 de mon portfolio n'ésitez pas à repassez pour voir son évolution. 
+            A bientot. 
           </p>
+          <small>Ornella :)</small>
         </div>
       )}
       {indexAboutVisible === 1 && (
@@ -37,61 +33,66 @@ const AboutText = ({ indexAboutVisible }) => {
           <h2 className="content-title">MY EXPERIENCE:</h2>
           {/* //mettre un slider de text et d'image*/}
           <ul className="experience content-text">
-            <li className="items">
-              <h4>Siplec E.Leclerc(Paris) 2016-2020 - Modéliste </h4>
-              <p className="description">
-                Chargée de concevoir des vêtements... collections...blalalalala
-              </p>
-              <div className="experience__cards">
-                <ul className="stack__card">
-                  <li>
-                    <LuPlane />
-                  </li>
-                  <li>Gerber</li>
-                  <li>Adobe suite</li>
-                  {/* <li><a><PiEyeClosedLight /></a></li>
-                              <li><a><PiEyeClosedLight /></a></li> */}
-                </ul>
-                <ul className=" travel__card ">
-                  <li>
-                    <LuPlane />{" "}
-                  </li>
-                  <li>India</li>
-                  {/* <li><a><PiEyeClosedLight /></a></li>
-                              <li><a><PiEyeClosedLight /></a></li> */}
-                </ul>
+                <li className="items">
+                    <h4>Texeurop (Wambrechie) 2020-2023 - Modéliste 3D</h4>
+                    <p className="description">
+                        Chargée de concevoir des collections pour plusieurs marques via l'outil CLO 3D.
+                        Voyage au Bengladesh et en Turquie afin de former les confrères en usine sur les techniques et le exigences du modélisme Français.
+                        Mise au point des produits et intermédiaire direct entre les usines et les marques.
+                    </p>
+                    <div className="experience__cards">
+                        <ul className="stack__card">
+                        <li>
+                            <BsStackOverflow />
+                        </li>
+                        <li>CLO3D</li>
+                        <li>Marvelous Designer</li>
+                        <li>Lectra</li>
+                        <li>Adobe suite</li>
+                        {/* <li><a><PiEyeClosedLight /></a></li>
+                                    <li><a><PiEyeClosedLight /></a></li> */}
+                        </ul>
+                        <ul className=" travel__card ">
+                        <li>
+                            <LuPlane />{" "}
+                        </li>
+                        <li>Bengladesh</li>
+                        <li>Turkey</li>
+                        {/* <li><a><PiEyeClosedLight /></a></li>
+                                    <li><a><PiEyeClosedLight /></a></li> */}
+                        </ul>
+                    </div>
+                </li>
+                <li className="items">
+                <h4>Siplec E.Leclerc(Paris) 2016-2020 - Modéliste </h4>
+                <p className="description">
+                    Chargée de concevoir des collections basics de la marque.
+                    Création des bases et mise en place d'une bibliothèque afin d'optimiser la conceptions des collections futurs. 
+                    Conception et mise au point des produits sur Gerber Accumark.
+                </p>
+                <div className="experience__cards">
+                    <ul className="stack__card">
+                    <li>
+                        <BsStackOverflow />
+                    </li>
+                    <li>Gerber</li>
+                    <li>Adobe</li>
+                    {/* <li><a><PiEyeClosedLight /></a></li>
+                                <li><a><PiEyeClosedLight /></a></li> */}
+                    </ul>
+                    <ul className=" travel__card ">
+                    <li>
+                        <LuPlane />{" "}
+                    </li>
+                    <li>India</li>
+                    {/* <li><a><PiEyeClosedLight /></a></li>
+                                <li><a><PiEyeClosedLight /></a></li> */}
+                    </ul>
               </div>
 
               {/* <p><a href="" className="link knowMore"> Know more</a></p> */}
             </li>
-            <li className="items">
-              <h4>Texeurop (Wambrechie) 2020-2023 - Modéliste 3D</h4>
-              <p className="description">
-                Chargée de concevoir des vêtements... collections...blalalalala
-              </p>
-              <div className="experience__cards">
-                <ul className="stack__card">
-                  <li>
-                    <LuPlane />
-                  </li>
-                  <li>CLO3D</li>
-                  <li>Marvelous Designer</li>
-                  <li>Lectra</li>
-                  <li>Adobe suite</li>
-                  {/* <li><a><PiEyeClosedLight /></a></li>
-                              <li><a><PiEyeClosedLight /></a></li> */}
-                </ul>
-                <ul className=" travel__card ">
-                  <li>
-                    <LuPlane />{" "}
-                  </li>
-                  <li>Bengladesh</li>
-                  <li>Turkey</li>
-                  {/* <li><a><PiEyeClosedLight /></a></li>
-                              <li><a><PiEyeClosedLight /></a></li> */}
-                </ul>
-              </div>
-            </li>
+
           </ul>
         </>
       )}
@@ -108,24 +109,35 @@ const AboutText = ({ indexAboutVisible }) => {
                 <GiDiploma />
               </p>
               <p>3WA</p>
+              <small>2022</small>
             </li>
             <li className="education-items">
               <p className="education-icons">
                 <GiDiploma />
               </p>
               <p>BTS MMV</p>
+              <small>2016</small>
             </li>
             <li className="education-items">
               <p className="education-icons">
                 <GiDiploma />
               </p>
               <p>DMA</p>
+              <small>2014</small>
+            </li>
+            <li className="education-items">
+              <p className="education-icons">
+                <GiDiploma />
+              </p>
+              <p>MANAA</p>
+              <small>2012</small>
             </li>
             <li className="education-items">
               <p className="education-icons">
                 <GiDiploma />
               </p>
               <p>BAC L</p>
+              <small>2010</small>
             </li>
           </ul>
         </>

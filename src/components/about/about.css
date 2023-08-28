@@ -31,6 +31,10 @@
     transition: var(--transition); */
 }
 
+.description {
+    padding-bottom: 25px;
+}
+
 /* .about__me-image:hover{
     transform: rotate(0)
 } */

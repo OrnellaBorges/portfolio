@@ -34,35 +34,35 @@ const Experience = () => {
               <AiFillHtml5 className="experience__details-icon" />
               <div>
                 <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__detail">
               <FaCss3Alt className="experience__details-icon" />
               <div>
                 <h4>CSS</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__detail">
               <SiJavascript className="experience__details-icon" />
               <div>
                 <h4>Javascript</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__detail">
               <FaBootstrap className="experience__details-icon" />
               <div>
                 <h4>Bootstrap</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__detail">
               <SiTailwindcss className="experience__details-icon" />
               <div>
                 <h4>Tailwind</h4>
-                <small className="text-light">Novice</small>
+                <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__detail">
@@ -79,7 +79,7 @@ const Experience = () => {
               </a>
               <div className="experience-blocText">
                 <h4>React</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light"></small>
               </div>
             </article>
           </div>
@@ -91,14 +91,14 @@ const Experience = () => {
               <FaNodeJs className="experience__details-icon" />
               <div>
                 <h4>Node JS</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__detail">
               <BsFiletypeSql className="experience__details-icon" />
               <div>
                 <h4>MySQL</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light"></small>
               </div>
             </article>
           </div>
@@ -111,42 +111,42 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>CLO 3D</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__detail">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Gerber</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__detail">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Marvelous Designer</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__detail">
               <SiAdobephotoshop className="experience__details-icon" />
               <div>
                 <h4>Photoshop</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__detail">
               <SiAdobeindesign className="experience__details-icon" />
               <div>
                 <h4>Indesign</h4>
-                <small className="text-light">Novice</small>
+                <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__detail">
               <SiAdobeillustrator className="experience__details-icon" />
               <div>
                 <h4>Illustrator</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light"></small>
               </div>
             </article>
           </div>
