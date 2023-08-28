@@ -1,8 +1,11 @@
 import React from "react";
 import "./contact.css";
+
+import { BsLinkedin } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
 import { MdOutlineEmail } from "react-icons/md";
-import { RiMessengerLine } from "react-icons/ri";
-import { BsWhatsapp } from "react-icons/bs";
+/* import { RiMessengerLine } from "react-icons/ri";
+import { BsWhatsapp } from "react-icons/bs"; */
 
 const Contact = () => {
   return (
@@ -13,20 +16,30 @@ const Contact = () => {
         <div className="contact__options">
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
-            <h4>Email</h4>
-            <h5>borges.ornella@gmail.com</h5>
-            <a href="mailto:borges.ornella@gmail.com" target="_blank">
-              Send a message
-            </a>
+            <h4>Email & phone</h4>
+            <small href="mailto:borges.ornella@gmail.com">
+              borges.ornella@gmail.com
+            </small>{" "}
+            <br />
+            <small>06.46.47.86.08</small>
+            <div className="contact__socials">
+              <a href="https://linkedin.com/in/ornellaborges" target="_blank">
+                <BsLinkedin />
+              </a>
+              <a href="https://github.com/OrnellaBorges" target="_blank">
+                {" "}
+                <BsGithub />
+              </a>
+            </div>
           </article>
-          <article className="contact__option">
+
+          {/* <article className="contact__option">
             <RiMessengerLine className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>borges.ornella@gmail.com</h5>
             <a href="mailto:borges.ornella@gmail.com" target="_blank">
               Send a message
             </a>
-          </article>
+          </article> */}
           {/* <article className="contact__option">
             <BsWhatsapp className="contact__option-icon" />
             <h4>Whatsapp</h4>

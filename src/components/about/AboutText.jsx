@@ -2,7 +2,7 @@ import "./about.css";
 
 // IMPORT ICONS
 import { GiDiploma } from "react-icons/gi";
-import {BsStackOverflow} from 'react-icons/bs';
+import { BsStackOverflow } from "react-icons/bs";
 import { LuPlane } from "react-icons/lu";
 //import { PiEyeLight } from "react-icons/pi";
 //import { PiEyeClosedLight } from "react-icons/pi";
@@ -18,12 +18,16 @@ const AboutText = ({ indexAboutVisible }) => {
           <h2 className="content-title">MINDSET:</h2>
           <p>
             Hello moi c'est Ornella, bienvenue sur mon espace de présentation.
-            Ancienne modéliste dans la mode j'ai découvert le métier de Developeur Front il y a 6 ans et aujourd'hui j'ai sauté le pas c'est devenu mon nouveau métier.
-            J'aime beaucoup ce nouveau projet de ma vie professionnel, il ressemble fortement à mon ancien métier et en plus on en apprend tous les jours. 
-            Je suis quelqu'un de curieux et d'engagé, j'aime entreprendre et apprendre.
-            Je fourmille d'idées constament. Je suis passionée et je me plait dans le métier de Developeur front car il est complet à la fois technique et créatif. 
-            Vous êtes ici sur ma version 1 de mon portfolio n'ésitez pas à repassez pour voir son évolution. 
-            A bientot. 
+            Ancienne modéliste dans la mode j'ai découvert le métier de
+            Developeur Front il y a 6 ans et il y a quelques mois j'ai sauté le
+            pas et c'est devenu mon nouveau métier. J'aime beaucoup ce nouveau
+            projet de ma vie professionnelle, il ressemble fortement à mon
+            ancien métier et en plus on en apprend tous les jours. Je suis
+            curieuse, engagée, j'aime entreprendre et apprendre. Je fourmille
+            d'idées constament. Je suis passionée et je me plais dans le métier
+            de Developeur front car il est complet, à la fois technique et
+            créatif. Vous êtes ici sur ma version 1 de mon portfolio n'hésitez
+            pas à repasser pour voir son évolution. A bientot.
           </p>
           <small>Ornella :)</small>
         </div>
@@ -33,66 +37,82 @@ const AboutText = ({ indexAboutVisible }) => {
           <h2 className="content-title">MY EXPERIENCE:</h2>
           {/* //mettre un slider de text et d'image*/}
           <ul className="experience content-text">
-                <li className="items">
-                    <h4>Texeurop (Wambrechie) 2020-2023 - Modéliste 3D</h4>
-                    <p className="description">
-                        Chargée de concevoir des collections pour plusieurs marques via l'outil CLO 3D.
-                        Voyage au Bengladesh et en Turquie afin de former les confrères en usine sur les techniques et le exigences du modélisme Français.
-                        Mise au point des produits et intermédiaire direct entre les usines et les marques.
-                    </p>
-                    <div className="experience__cards">
-                        <ul className="stack__card">
-                        <li>
-                            <BsStackOverflow />
-                        </li>
-                        <li>CLO3D</li>
-                        <li>Marvelous Designer</li>
-                        <li>Lectra</li>
-                        <li>Adobe suite</li>
-                        {/* <li><a><PiEyeClosedLight /></a></li>
+            <li className="items">
+              <h4>Texeurop (Wambrechie) 2020-2023 - Modéliste 3D</h4>
+              <p className="description">
+                Chargée de concevoir des collections pour plusieurs marques via
+                l'outil CLO 3D. Voyage au Bengladesh et en Turquie afin de
+                former les confrères en usine sur les techniques et les
+                exigences du modélisme Français. Mise au point des produits et
+                intermédiaire technique direct entre les usines et les marques.
+              </p>
+              <small className="trad">
+                In charge to designing collections for several brands via the
+                CLO 3 D3d tool. Trip to Bangladesh and Turkey to train
+                colleagues in factory on the techniques and requirements of
+                French modeling. Product development and direct technical
+                intermediary between factories and brands.
+              </small>
+              <div className="experience__cards">
+                <ul className="stack__card">
+                  <li>
+                    <BsStackOverflow />
+                  </li>
+                  <li>CLO3D</li>
+                  <li>Marvelous Designer</li>
+                  <li>Lectra</li>
+                  <li>Adobe</li>
+                  {/* <li><a><PiEyeClosedLight /></a></li>
                                     <li><a><PiEyeClosedLight /></a></li> */}
-                        </ul>
-                        <ul className=" travel__card ">
-                        <li>
-                            <LuPlane />{" "}
-                        </li>
-                        <li>Bengladesh</li>
-                        <li>Turkey</li>
-                        {/* <li><a><PiEyeClosedLight /></a></li>
+                </ul>
+                <ul className=" travel__card ">
+                  <li>
+                    <LuPlane />{" "}
+                  </li>
+                  <li>Bengladesh</li>
+                  <li>Turkey</li>
+                  {/* <li><a><PiEyeClosedLight /></a></li>
                                     <li><a><PiEyeClosedLight /></a></li> */}
-                        </ul>
-                    </div>
-                </li>
-                <li className="items">
-                <h4>Siplec E.Leclerc(Paris) 2016-2020 - Modéliste </h4>
-                <p className="description">
-                    Chargée de concevoir des collections basics de la marque.
-                    Création des bases et mise en place d'une bibliothèque afin d'optimiser la conceptions des collections futurs. 
-                    Conception et mise au point des produits sur Gerber Accumark.
-                </p>
-                <div className="experience__cards">
-                    <ul className="stack__card">
-                    <li>
-                        <BsStackOverflow />
-                    </li>
-                    <li>Gerber</li>
-                    <li>Adobe</li>
-                    {/* <li><a><PiEyeClosedLight /></a></li>
+                </ul>
+              </div>
+            </li>
+            <li className="items">
+              <h4>Siplec E.Leclerc(Paris) 2016-2020 - Modéliste </h4>
+              <p className="description">
+                Chargée de concevoir les collections Basics de la marque
+                Tissaia. Création des bases et mise en place d'une bibliothèque
+                afin d'optimiser la conceptions des collections futurs.
+                Conception et mise au point des produits sur Gerber Accumark.
+              </p>
+              <small className="trad">
+                In charge to designing the brand’s Basics collections for
+                Tisaia. Creation of the bases and implementation of a library to
+                optimize the design of future collections. Design and product
+                development on Gerber Accumark.
+              </small>
+
+              <div className="experience__cards">
+                <ul className="stack__card">
+                  <li>
+                    <BsStackOverflow />
+                  </li>
+                  <li>Gerber</li>
+                  <li>Adobe</li>
+                  {/* <li><a><PiEyeClosedLight /></a></li>
                                 <li><a><PiEyeClosedLight /></a></li> */}
-                    </ul>
-                    <ul className=" travel__card ">
-                    <li>
-                        <LuPlane />{" "}
-                    </li>
-                    <li>India</li>
-                    {/* <li><a><PiEyeClosedLight /></a></li>
+                </ul>
+                <ul className=" travel__card ">
+                  <li>
+                    <LuPlane />{" "}
+                  </li>
+                  <li>India</li>
+                  {/* <li><a><PiEyeClosedLight /></a></li>
                                 <li><a><PiEyeClosedLight /></a></li> */}
-                    </ul>
+                </ul>
               </div>
 
               {/* <p><a href="" className="link knowMore"> Know more</a></p> */}
             </li>
-
           </ul>
         </>
       )}

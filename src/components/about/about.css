@@ -32,7 +32,7 @@
 }
 
 .description {
-    padding-bottom: 25px;
+  padding-bottom: 25px;
 }
 
 /* .about__me-image:hover{
@@ -41,7 +41,7 @@
 
 .content-title {
   text-align: center;
-  margin-bottom: 2%;
+  margin: 2% 0;
 }
 .about__cards {
   display: grid;
@@ -64,6 +64,11 @@
   flex-wrap: wrap;
   justify-content: center;
   border-radius: 1rem;
+  margin-top: 20px;
+}
+.trad {
+  color: var(--color-light);
+  padding-bottom: 20px;
 }
 
 .stack__card {
@@ -193,7 +198,7 @@
 .btn-container {
   display: flex;
   justify-content: center;
-  margin-top: 2%;
+  margin-top: 5%;
 }
 
 /*======================= Gallery CSS ================ */
