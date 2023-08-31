@@ -18,17 +18,19 @@ const AboutText = ({ indexAboutVisible }) => {
           <h2 className="content-title">MINDSET:</h2>
           <p>
             Hello moi c'est Ornella, bienvenue sur mon espace de présentation.
-            Ancienne modéliste dans la mode j'ai découvert le métier de
-            Developeur Front il y a 6 ans et il y a quelques mois j'ai sauté le
-            pas et c'est devenu mon nouveau métier. J'aime beaucoup ce nouveau
-            projet de ma vie professionnelle, il ressemble fortement à mon
-            ancien métier et en plus on en apprend tous les jours. Je suis
-            curieuse, engagée, j'aime entreprendre et apprendre. Je fourmille
-            d'idées constament. Je suis passionée et je me plais dans le métier
-            de Developeur front car il est complet, à la fois technique et
-            créatif. Vous êtes ici sur ma version 1 de mon portfolio n'hésitez
-            pas à repasser pour voir son évolution. A bientot.
+            Ancienne Modéliste dans le secteur du retail mode j'ai découvert le
+            métier de Developeur Front il y a plus de 6 ans et depuis, plus d'1
+            an j'ai sauté le pas et c'est devenu mon nouveau métier. J'aime
+            beaucoup ce nouveau projet de ma vie professionnelle, il ressemble
+            fortement à mon ancien métier et en plus de ça on en apprend tous
+            les jours. Je suis curieuse, engagée, j'aime entreprendre et
+            apprendre. Je fourmille d'idées constament. Je suis passionée et je
+            me plais dans le métier de Developeuse Front / full stack car il est
+            complet, à la fois technique et créatif. Vous êtes ici sur ma
+            version 1 de mon portfolio n'hésitez pas à repasser pour voir son
+            évolution. Bonne visite et à bientot!
           </p>
+          <br />
           <small>Ornella :)</small>
         </div>
       )}
