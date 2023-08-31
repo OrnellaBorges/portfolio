@@ -10,6 +10,7 @@ nav {
     display: flex;
     gap: 0.8rem;
     border-radius: 3rem;
+    -webkit-backdrop-filter: blur(15px);
     backdrop-filter: blur(15px);
     transform: translateX(-50%);
 }

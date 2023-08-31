@@ -40,7 +40,46 @@ const AboutText = ({ indexAboutVisible }) => {
           {/* //mettre un slider de text et d'image*/}
           <ul className="experience content-text">
             <li className="items">
-              <h4>Texeurop (Wambrechie) 2020-2023 - Modéliste 3D</h4>
+              <h4>Sarenza (Paris) 2022-2023 - Intégratrice</h4>
+              <p className="description">
+                J'ai eu la chance de d'élaborer des nouvelles pages pour
+                Sarenza. Cela pouvait aller de contenus exclusifs comme les
+                fêtes de fin d'année, les soldes ou encore de collaborations
+                entre Sarenza et les grandes marques.Certaines pages pouvaient
+                comporter des animations léchées afin de rendre dynamique et
+                attractive l'expérience utilisateur.
+              </p>
+              <small className="trad">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium temporibus dignissimos quasi sed ullam? Veniam
+                officia et deserunt ipsum vel ipsa in, unde sit esse, nobis
+                obcaecati eum?
+              </small>
+              <div className="experience__cards">
+                <ul className="stack__card">
+                  <li>
+                    <BsStackOverflow />
+                  </li>
+                  <li>CLO3D</li>
+                  <li>Marvelous Designer</li>
+                  <li>Lectra</li>
+                  <li>Adobe</li>
+                  {/* <li><a><PiEyeClosedLight /></a></li>
+                                    <li><a><PiEyeClosedLight /></a></li> */}
+                </ul>
+                <ul className=" travel__card ">
+                  <li>
+                    <LuPlane />{" "}
+                  </li>
+                  <li>Bengladesh</li>
+                  <li>Turkey</li>
+                  {/* <li><a><PiEyeClosedLight /></a></li>
+                                    <li><a><PiEyeClosedLight /></a></li> */}
+                </ul>
+              </div>
+            </li>
+            <li className="items">
+              <h4>Texeurop (Wambrechie) 2020-2022 - Modéliste 3D</h4>
               <p className="description">
                 Chargée de concevoir des collections pour plusieurs marques via
                 l'outil CLO 3D. Voyage au Bengladesh et en Turquie afin de

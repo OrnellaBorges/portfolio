@@ -33,6 +33,12 @@ const Footer = () => {
           <a href="#contact">Contact</a>
         </li>
       </ul>
+      <p className="footer-sentence">
+        Ce site a été réalisé à l'aide de la librarie{" "}
+        <a target="_blank" href="https://react.dev/">
+          React
+        </a>
+      </p>
       <div className="header__socials">
         <a href="https://linkedin.com/in/ornellaborges" target="_blank">
           <BsLinkedin />
