@@ -50,29 +50,31 @@ const AboutText = ({ indexAboutVisible }) => {
                 attractive l'expérience utilisateur.
               </p>
               <small className="trad">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laudantium temporibus dignissimos quasi sed ullam? Veniam
-                officia et deserunt ipsum vel ipsa in, unde sit esse, nobis
-                obcaecati eum?
+                I had the chance to develop new pages for Sarenza. This could
+                range from exclusive content like end-of-year celebrations,
+                sales or even collaborations between Sarenza and major brands.
+                Some pages possible feature polished animations to make it
+                dynamic and attractive user experience.
               </small>
               <div className="experience__cards">
                 <ul className="stack__card">
                   <li>
                     <BsStackOverflow />
                   </li>
-                  <li>CLO3D</li>
-                  <li>Marvelous Designer</li>
-                  <li>Lectra</li>
-                  <li>Adobe</li>
+                  <li>HTML 5</li>
+                  <li>CSS 3</li>
+                  <li>Jquery</li>
                   {/* <li><a><PiEyeClosedLight /></a></li>
                                     <li><a><PiEyeClosedLight /></a></li> */}
                 </ul>
-                <ul className=" travel__card ">
+                <ul className="stack__card">
                   <li>
-                    <LuPlane />{" "}
+                    <BsStackOverflow />
                   </li>
-                  <li>Bengladesh</li>
-                  <li>Turkey</li>
+                  <li>Sass</li>
+                  <li>React js</li>
+                  <li>Redux</li>
+                  <li>Css module</li>
                   {/* <li><a><PiEyeClosedLight /></a></li>
                                     <li><a><PiEyeClosedLight /></a></li> */}
                 </ul>

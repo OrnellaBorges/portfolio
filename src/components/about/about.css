@@ -72,8 +72,8 @@
 }
 
 .stack__card {
-  background: var(--color-bg-variant);
-  border: 1px solid #007aff;
+  background: #363643;
+  border: 1px solid transparent;
   border-radius: 1rem;
   padding: 2%;
   text-align: center;
@@ -83,19 +83,18 @@
 }
 
 .travel__card {
-  background: transparent;
-  border: 1px solid #007aff;
+  background: #363643;
+  border: 1px solid transparent;
   border-radius: 1rem;
   padding: 2%;
   text-align: center;
   transition: var(--transition);
   width: 30%;
-  border-color: #007aff;
   border-radius: 1rem;
 }
 
 .about__card {
-  background: var(--color-bg-variant);
+  background: transparent;
   border: 1px solid transparent;
   border-radius: 1rem;
   padding: 2%;
@@ -106,7 +105,7 @@
 }
 
 .about__card:hover {
-  border: 1px solid var(--color-light);
+  background-color: var(--color-bg-variant);
 }
 
 .about__card.active {
@@ -149,7 +148,7 @@
 } */
 
 .education {
-  background-color: var(--color-bg-variant);
+  background-color: transparent;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
