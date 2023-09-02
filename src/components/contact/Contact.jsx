@@ -1,20 +1,47 @@
 import React from "react";
+import { useRef } from "react";
+import emailjs from "emailjs-com";
 import "./contact.css";
 
-import { BsLinkedin } from "react-icons/bs";
-import { BsGithub } from "react-icons/bs";
+//IMPORT Icons
+/* import { BsLinkedin } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";*/
 import { MdOutlineEmail } from "react-icons/md";
-/* import { RiMessengerLine } from "react-icons/ri";
-import { BsWhatsapp } from "react-icons/bs"; */
+//import { RiMessengerLine } from "react-icons/ri";
+import { BsWhatsapp } from "react-icons/bs";
+
+emailjs.init("user_borges.ornella@gmail.com");
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_hf4ol5e",
+        "template_6zvw26r",
+        form.current,
+        "jcehiMp3NjQVVKd4K"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <section id="contact">
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
       <div className="container contact__container">
         <div className="contact__options">
-          <article className="contact__option">
+          {/*<article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email & phone</h4>
             <small href="mailto:borges.ornella@gmail.com">
@@ -31,33 +58,34 @@ const Contact = () => {
                 <BsGithub />
               </a>
             </div>
-          </article>
+          </article> */}
 
-          {/* <article className="contact__option">
-            <RiMessengerLine className="contact__option-icon" />
+          <article className="contact__option">
+            <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
             <a href="mailto:borges.ornella@gmail.com" target="_blank">
               Send a message
             </a>
-          </article> */}
-          {/* <article className="contact__option">
-            <BsWhatsapp className="contact__option-icon" />
-            <h4>Whatsapp</h4>
-            <h5>+646478608</h5>
-            <a
-              href="https://api.whatsapp.comm/send?phone+646478608"
-              target="_blank"
-            >
-              Send a message
-            </a>
-          </article> */}
+          </article>
         </div>
-        {/* <form action="">
-                <input type='text' name='name' placeholder='Your Full Name' required/>
-                <input type='email' name='email' placeholder='Your Email' required/>
-                <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
-                <button type='submit' className='btn btn-primary'>Send message</button>
-            </form> */}
+        <form ref={form} onSubmit={sendEmail}>
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Full Name"
+            required
+          />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            rows="7"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit" className="btn btn-primary">
+            Send message
+          </button>
+        </form>
       </div>
     </section>
   );
