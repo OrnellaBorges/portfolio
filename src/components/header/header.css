@@ -13,6 +13,23 @@
   display: none;
 }
 
+.techno-title {
+  display: flex;
+  justify-content: center;
+  /* //border: 1px solid red */
+  color: var(--color-light);
+}
+.dot {
+  width: 0.2rem;
+  height: 0.2rem;
+  background-color: var(--color-light);
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 50%;
+}
+
 /* ========================== CTA ====================*/
 
 .cta {

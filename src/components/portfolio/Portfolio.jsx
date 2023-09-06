@@ -21,12 +21,14 @@ const Portfolio = () => {
                 <small>Work in progess</small>
 
                 <div className="portfolio__item-cta">
-                  {/*                                     <a href={github} className='btn'>Github</a>
-                                    <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a> */}
+                  <a href={github} className="btn">
+                    Github
+                  </a>
+                  <a href="#contact" className="btn btn-primary">
+                    Let&apos;s talk
+                  </a>
+                  {/* <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a> */}
                 </div>
-                <a href="#contact" className="btn btn-primary">
-                  Let&apos;s talk
-                </a>
               </article>
             );
           })}
