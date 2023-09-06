@@ -345,4 +345,12 @@ ul a img {
   .about__content p {
     margin: 1.5rem 0;
   }
+
+  .education-icons {
+    font-size: 1rem;
+  }
+  .education {
+    display: flex;
+    flex-direction: column;
+  }
 }

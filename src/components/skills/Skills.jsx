@@ -31,53 +31,54 @@ const Experience = () => {
           <h3>Frontend Developpement</h3>
           <div className="experience__content">
             <article className="experience__detail">
-              <AiFillHtml5 className="experience__details-icon" />
-              <div>
+              <div className="techno-title-container">
+                <AiFillHtml5 className="experience__details-icon" />
                 <h4>HTML</h4>
                 <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__detail">
-              <FaCss3Alt className="experience__details-icon" />
-              <div>
+              <div className="techno-title-container">
+                <FaCss3Alt className="experience__details-icon" />
                 <h4>CSS</h4>
                 <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__detail">
-              <SiJavascript className="experience__details-icon" />
-              <div>
+              <div className="techno-title-container">
+                <SiJavascript className="experience__details-icon" />
                 <h4>Javascript</h4>
                 <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__detail">
-              <FaBootstrap className="experience__details-icon" />
-              <div>
+              <div className="techno-title-container">
+                {" "}
+                <FaBootstrap className="experience__details-icon" />
                 <h4>Bootstrap</h4>
                 <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__detail">
-              <SiTailwindcss className="experience__details-icon" />
-              <div>
+              <div className="techno-title-container">
+                <SiTailwindcss className="experience__details-icon" />
                 <h4>Tailwind</h4>
                 <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__detail">
-              <a
-                className="experience-logoStack"
-                href="https://react.dev"
-                target="_blank"
-              >
-                <img
-                  src={reactLogo}
-                  className="logoSkills react"
-                  alt="React logo"
-                />
-              </a>
               <div className="experience-blocText">
+                <a
+                  className="experience-logoStack"
+                  href="https://react.dev"
+                  target="_blank"
+                >
+                  <img
+                    src={reactLogo}
+                    className="logoSkills react"
+                    alt="React logo"
+                  />
+                </a>
                 <h4>React</h4>
                 <small className="text-light"></small>
               </div>
@@ -88,15 +89,15 @@ const Experience = () => {
           <h3>Backend Developpement</h3>
           <div className="experience__content">
             <article className="experience__detail">
-              <FaNodeJs className="experience__details-icon" />
-              <div>
+              <div className="techno-title-container">
+                <FaNodeJs className="experience__details-icon" />
                 <h4>Node JS</h4>
                 <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__detail">
-              <BsFiletypeSql className="experience__details-icon" />
-              <div>
+              <div className="techno-title-container">
+                <BsFiletypeSql className="experience__details-icon" />
                 <h4>MySQL</h4>
                 <small className="text-light"></small>
               </div>
@@ -108,43 +109,46 @@ const Experience = () => {
           <h3>OTHER SKILLS STACK</h3>
           <div className="experience__content">
             <article className="experience__detail">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
+              <div className="techno-title-container">
+                <BsPatchCheckFill className="experience__details-icon" />
                 <h4>CLO 3D</h4>
                 <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__detail">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
+              <div className="techno-title-container">
+                <BsPatchCheckFill className="experience__details-icon" />
+
                 <h4>Gerber</h4>
                 <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__detail">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
+              <div className="techno-title-container">
+                <BsPatchCheckFill className="experience__details-icon" />
                 <h4>Marvelous Designer</h4>
                 <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__detail">
-              <SiAdobephotoshop className="experience__details-icon" />
-              <div>
+              <div className="techno-title-container">
+                <SiAdobephotoshop className="experience__details-icon" />
+
                 <h4>Photoshop</h4>
                 <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__detail">
-              <SiAdobeindesign className="experience__details-icon" />
-              <div>
+              <div className="techno-title-container">
+                <SiAdobeindesign className="experience__details-icon" />
                 <h4>Indesign</h4>
                 <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__detail">
-              <SiAdobeillustrator className="experience__details-icon" />
-              <div>
+              <div className="techno-title-container">
+                <SiAdobeillustrator className="experience__details-icon" />
+
                 <h4>Illustrator</h4>
                 <small className="text-light"></small>
               </div>

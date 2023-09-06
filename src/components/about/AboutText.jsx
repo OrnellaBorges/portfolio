@@ -2,6 +2,7 @@ import "./about.css";
 
 // IMPORT ICONS
 import { GiDiploma } from "react-icons/gi";
+import { BsBook } from "react-icons/bs";
 import { BsStackOverflow } from "react-icons/bs";
 import { LuPlane } from "react-icons/lu";
 //import { PiEyeLight } from "react-icons/pi";
@@ -173,12 +174,16 @@ const AboutText = ({ indexAboutVisible }) => {
               </p>
               <p>3WA</p>
               <small>2022</small>
+              <small>Bootcamp 6 mois Fullstack Javascript</small>
+              <small>Diplôme Bac + 2 (en cours d'optention)</small>
             </li>
             <li className="education-items">
               <p className="education-icons">
                 <GiDiploma />
               </p>
               <p>BTS MMV</p>
+              <small>Métier de la mode et industrie du vêtement</small>
+              <small>Modéliste 2D-3D</small>
               <small>2016</small>
             </li>
             <li className="education-items">
@@ -186,20 +191,31 @@ const AboutText = ({ indexAboutVisible }) => {
                 <GiDiploma />
               </p>
               <p>DMA</p>
+              <small>Diplôme des métiers d'Arts</small>
+              <small>Designer textile Numérique</small>
               <small>2014</small>
             </li>
             <li className="education-items">
               <p className="education-icons">
-                <GiDiploma />
+                <BsBook />
               </p>
               <p>MANAA</p>
+              <small>Mise à niveau Arts appliquées et design Numérique</small>
               <small>2012</small>
+            </li>
+            <li className="education-items">
+              <p className="education-icons">
+                <BsBook />
+              </p>
+              <p>La Sorbonne</p>
+              <small>2011</small>
             </li>
             <li className="education-items">
               <p className="education-icons">
                 <GiDiploma />
               </p>
               <p>BAC L</p>
+              <small>Arts et Langues</small>
               <small>2010</small>
             </li>
           </ul>

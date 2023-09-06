@@ -27,14 +27,18 @@
 .experience__content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  row-gap: 2rem;
+  gap: 2rem;
 }
 
 .experience__details {
   display: flex;
   gap: 1rem;
 }
-
+.techno-title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .experience__details-icon {
   font-size: 2.6rem;
   margin-top: 6px;
@@ -93,6 +97,18 @@
 @media screen and (max-width: 600px) {
   .experience__container {
     gap: 1rem;
+  }
+
+  .experience__container > h4 {
+    font-size: 0.5rem;
+  }
+
+  .logoSkills {
+    width: 2rem;
+    padding: 3px;
+  }
+  .experience__details-icon {
+    font-size: 1.6rem;
   }
   .experience__container > div {
     width: 100%;
