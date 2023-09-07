@@ -41,6 +41,128 @@ const AboutText = ({ indexAboutVisible }) => {
           {/* //mettre un slider de text et d'image*/}
           <ul className="experience content-text">
             <li className="items">
+              <h4>Assistante developpeuse Fullstack JS</h4>
+              <p className="description">
+                Chargée d'assister le developpeur fullstack dans des missions de
+                refonte complète de site web pour des clients comme Decathlon ou
+                Kiabi. J'interviens principalement dans la phase de
+                développement en créant des composants d'affichage tout en
+                implémentant le typage ainsi que les test unitaires.
+              </p>
+              <small className="trad">
+                Responsible for assisting the fullstack developer in complete
+                website redesign for clients like Decathlon or Kiabi. I mainly
+                intervene in the phase of development by creating display
+                components while implementing typing as well as unit testing.
+              </small>
+              <div className="experience__cards">
+                <ul className="stack__card">
+                  <li>
+                    <BsStackOverflow />
+                  </li>
+                  <li></li>
+                  <li>TypeScript</li>
+                  <li>Jest</li>
+                  {/* <li><a><PiEyeClosedLight /></a></li>
+                                    <li><a><PiEyeClosedLight /></a></li> */}
+                </ul>
+                <ul className="stack__card">
+                  <li>
+                    <BsStackOverflow />
+                  </li>
+                  <li>Sass</li>
+                  <li>Tailwind</li>
+                  <li>React</li>
+                  <li>Redux</li>
+                  <li>Material UI</li>
+                  {/* <li><a><PiEyeClosedLight /></a></li>
+                                    <li><a><PiEyeClosedLight /></a></li> */}
+                </ul>
+              </div>
+            </li>
+            <li className="items">
+              <h4>Sarenza (Paris) 2022-2023 - Intégratrice</h4>
+              <p className="description">
+                J'ai eu la chance de d'élaborer des nouvelles pages pour
+                Sarenza. Cela pouvait aller de contenus exclusifs comme les
+                fêtes de fin d'année, les soldes ou encore de collaborations
+                entre Sarenza et les grandes marques.Certaines pages pouvaient
+                comporter des animations léchées afin de rendre dynamique et
+                attractive l'expérience utilisateur.
+              </p>
+              <small className="trad">
+                I had the chance to develop new pages for Sarenza. This could
+                range from exclusive content like end-of-year celebrations,
+                sales or even collaborations between Sarenza and major brands.
+                Some pages possible feature polished animations to make it
+                dynamic and attractive user experience.
+              </small>
+              <div className="experience__cards">
+                <ul className="stack__card">
+                  <li>
+                    <BsStackOverflow />
+                  </li>
+                  <li>HTML 5</li>
+                  <li>CSS 3</li>
+                  <li>Jquery</li>
+                  {/* <li><a><PiEyeClosedLight /></a></li>
+                                    <li><a><PiEyeClosedLight /></a></li> */}
+                </ul>
+                <ul className="stack__card">
+                  <li>
+                    <BsStackOverflow />
+                  </li>
+                  <li>Sass</li>
+                  <li>React js</li>
+                  <li>Redux</li>
+                  <li>Css module</li>
+                  {/* <li><a><PiEyeClosedLight /></a></li>
+                                    <li><a><PiEyeClosedLight /></a></li> */}
+                </ul>
+              </div>
+            </li>
+            <li className="items">
+              <h4>Sarenza (Paris) 2022-2023 - Intégratrice</h4>
+              <p className="description">
+                J'ai eu la chance de d'élaborer des nouvelles pages pour
+                Sarenza. Cela pouvait aller de contenus exclusifs comme les
+                fêtes de fin d'année, les soldes ou encore de collaborations
+                entre Sarenza et les grandes marques.Certaines pages pouvaient
+                comporter des animations léchées afin de rendre dynamique et
+                attractive l'expérience utilisateur.
+              </p>
+              <small className="trad">
+                I had the chance to develop new pages for Sarenza. This could
+                range from exclusive content like end-of-year celebrations,
+                sales or even collaborations between Sarenza and major brands.
+                Some pages possible feature polished animations to make it
+                dynamic and attractive user experience.
+              </small>
+              <div className="experience__cards">
+                <ul className="stack__card">
+                  <li>
+                    <BsStackOverflow />
+                  </li>
+                  <li>HTML 5</li>
+                  <li>CSS 3</li>
+                  <li>Jquery</li>
+                  {/* <li><a><PiEyeClosedLight /></a></li>
+                                    <li><a><PiEyeClosedLight /></a></li> */}
+                </ul>
+                <ul className="stack__card">
+                  <li>
+                    <BsStackOverflow />
+                  </li>
+                  <li>Sass</li>
+                  <li>React js</li>
+                  <li>Redux</li>
+                  <li>Css module</li>
+                  {/* <li><a><PiEyeClosedLight /></a></li>
+                                    <li><a><PiEyeClosedLight /></a></li> */}
+                </ul>
+              </div>
+            </li>
+            <li className="items">
               <h4>Sarenza (Paris) 2022-2023 - Intégratrice</h4>
               <p className="description">
                 J'ai eu la chance de d'élaborer des nouvelles pages pour
@@ -91,8 +213,8 @@ const AboutText = ({ indexAboutVisible }) => {
                 intermédiaire technique direct entre les usines et les marques.
               </p>
               <small className="trad">
-                In charge to designing collections for several brands via the
-                CLO 3 D3d tool. Trip to Bangladesh and Turkey to train
+                In charge to patternmaking collections for several brands via
+                the CLO 3D tool. Trip to Bangladesh and Turkey to train
                 colleagues in factory on the techniques and requirements of
                 French modeling. Product development and direct technical
                 intermediary between factories and brands.
