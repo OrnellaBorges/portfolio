@@ -9,7 +9,7 @@ import { LuPlane } from "react-icons/lu";
 //import { PiEyeClosedLight } from "react-icons/pi";
 
 //IMPORTATION IMAGES
-import Shield from "../../assets/shield.png";
+//import Shield from "../../assets/shield.png";
 
 const AboutText = ({ indexAboutVisible }) => {
   return (
