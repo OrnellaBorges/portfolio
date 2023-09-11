@@ -28,6 +28,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
+  text-align: center;
 }
 
 .experience__details {
@@ -40,15 +41,21 @@
   justify-content: center;
 }
 .experience__details-icon {
+  margin: 0 auto;
   font-size: 2.6rem;
   margin-top: 6px;
   color: var(--color-primary);
+}
+
+.techno-title-container > h4 {
+  margin-top: 2%;
 }
 
 /*=============== LOGO AND ICONS ===========================*/
 
 .logoSkills {
   /* height: 6rem; */
+  margin: 0 auto;
   width: 3.6rem;
   padding: 10px;
   will-change: filter;
@@ -99,8 +106,8 @@
     gap: 1rem;
   }
 
-  .experience__container > h4 {
-    font-size: 0.5rem;
+  .techno-title-container > h4 {
+    font-size: 0.7rem;
   }
 
   .logoSkills {

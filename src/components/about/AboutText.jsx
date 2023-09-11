@@ -296,15 +296,16 @@ const AboutText = ({ indexAboutVisible }) => {
               </p>
               <p>3WA</p>
               <small>2022</small>
-              <small>Bootcamp 6 mois Fullstack Javascript</small>
-              <small>Diplôme Bac + 2 (en cours d'optention)</small>
+              <small>Bootcamp 4 mois Fullstack Javascript</small>
+              <small>Diplôme Bac + 2 </small>
+              <small>(en cours d'optention)</small>
             </li>
             <li className="education-items">
               <p className="education-icons">
                 <GiDiploma />
               </p>
               <p>BTS MMV</p>
-              <small>Métier de la mode et industrie du vêtement</small>
+              <small>Mode et industrie du vêtement</small>
               <small>Modéliste 2D-3D</small>
               <small>2016</small>
             </li>
@@ -322,7 +323,7 @@ const AboutText = ({ indexAboutVisible }) => {
                 <BsBook />
               </p>
               <p>MANAA</p>
-              <small>Mise à niveau Arts appliquées et design Numérique</small>
+              <small>Arts-design Numérique</small>
               <small>2012</small>
             </li>
             <li className="education-items">

@@ -144,15 +144,21 @@
   margin: 2rem 0 2.6rem;
   color: var(--color-light);
 }
-/* .experience {
-    
-} */
 
 .education {
   background-color: transparent;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
+  text-align: center;
+}
+
+.education-items {
+  width: 40%;
+}
+.education-icons {
+  color: white;
+  font-size: 2rem;
 }
 
 .stack-container {
@@ -185,10 +191,6 @@
 }
 .container-logo {
   width: 20%;
-}
-.education-icons {
-  color: white;
-  font-size: 2rem;
 }
 
 .mindset-content {
@@ -297,19 +299,18 @@ ul a img {
   .tata {
     display: none;
   }
-}
+  .toto {
+    justify-content: center;
+  }
 
-.toto {
-  justify-content: center;
-}
+  .titi {
+    width: 100%;
+    margin-left: 0;
+  }
 
-.titi {
-  width: 100%;
-  margin-left: 0;
-}
-
-.gallery {
-  display: none;
+  .gallery {
+    display: none;
+  }
 }
 
 /*======================= MEDIA QUERIES (small devices)================ */
@@ -344,13 +345,14 @@ ul a img {
 
   .about__content p {
     margin: 1.5rem 0;
+    text-align: center;
   }
 
   .education-icons {
     font-size: 1rem;
   }
   .education {
-    display: flex;
-    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
   }
 }
