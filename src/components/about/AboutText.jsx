@@ -12,345 +12,286 @@ import { LuPlane } from "react-icons/lu";
 //import Shield from "../../assets/shield.png";
 
 const AboutText = ({ indexAboutVisible }) => {
-  return (
-    <div>
-      {indexAboutVisible === 0 && (
-        <div className="mindset-content">
-          <h2 className="content-title">MINDSET:</h2>
-          <p>
-            Hello moi c'est Ornella, bienvenue sur mon espace de présentation.
-            Ancienne Modéliste dans le secteur du retail mode j'ai découvert le
-            métier de Dévelopeuse Frontend il y a plus de 6 ans et depuis, plus
-            d'un an j'ai sauté le pas et c'est devenu mon nouveau métier. J'aime
-            beaucoup ce nouveau projet de ma vie professionnelle, il ressemble
-            fortement à mon ancien métier et en plus de ça on en apprend tous
-            les jours. Je suis curieuse, engagée, j'aime entreprendre et
-            apprendre. Je fourmille d'idées constamment. Je suis passionée et je
-            me plais dans le métier de Dévelopeuse Fullstack car il est complet,
-            à la fois technique et créatif. Vous êtes ici sur ma version 1 de
-            mon portfolio n'hésitez pas à repasser pour voir son évolution.
-            Bonne visite et à bientot!
-          </p>
-          <br />
-          <small>Ornella :)</small>
-        </div>
-      )}
-      {indexAboutVisible === 1 && (
-        <>
-          <h2 className="content-title">MY EXPERIENCE:</h2>
-          {/* //mettre un slider de text et d'image*/}
-          <ul className="experience content-text">
-            <li className="items">
-              <h4>Assistante developpeuse Fullstack JS</h4>
-              <p className="description">
-                Chargée d'assister le developpeur fullstack dans des missions de
-                refonte complète de site web pour des clients comme Decathlon ou
-                Kiabi. J'interviens principalement dans la phase de
-                développement en créant des composants d'affichage tout en
-                implémentant le typage ainsi que les test unitaires.
-              </p>
-              <small className="trad">
-                Responsible for assisting the fullstack developer in complete
-                website redesign for clients like Decathlon or Kiabi. I mainly
-                intervene in the phase of development by creating display
-                components while implementing typing as well as unit testing.
-              </small>
-              <div className="experience__cards">
-                <ul className="stack__card">
-                  <li>
-                    <BsStackOverflow />
-                  </li>
-                  <li></li>
-                  <li>TypeScript</li>
-                  <li>Jest</li>
-                  {/* <li><a><PiEyeClosedLight /></a></li>
+    return (
+        <div>
+            {indexAboutVisible === 0 && (
+                <div className="mindset-content">
+                    <h2 className="content-title">MINDSET:</h2>
+                    <p>
+                        Hello moi c'est Ornella, bienvenue sur mon espace de
+                        présentation. Ancienne Modéliste dans le secteur du
+                        retail mode j'ai découvert le métier de Dévelopeuse
+                        Frontend il y a plus de 6 ans et depuis, plus d'un an
+                        j'ai sauté le pas et c'est devenu mon nouveau métier.
+                        J'aime beaucoup ce nouveau projet de ma vie
+                        professionnelle, il ressemble fortement à mon ancien
+                        métier et en plus de ça on en apprend tous les jours. Je
+                        suis curieuse, engagée, j'aime entreprendre et
+                        apprendre. Je fourmille d'idées constamment. Je suis
+                        passionée et je me plais dans le métier de Dévelopeuse
+                        Fullstack car il est complet, à la fois technique et
+                        créatif. Vous êtes ici sur ma version 1 de mon portfolio
+                        n'hésitez pas à repasser pour voir son évolution. Bonne
+                        visite et à bientot!
+                    </p>
+                    <br />
+                    <small>Ornella :)</small>
+                </div>
+            )}
+            {indexAboutVisible === 1 && (
+                <>
+                    <h2 className="content-title">MY EXPERIENCE:</h2>
+                    {/* //mettre un slider de text et d'image*/}
+                    <ul className="experience content-text">
+                        <li className="items">
+                            <h4>Assistante developpeuse Fullstack JS</h4>
+                            <p className="description">
+                                Chargée d'assister le developpeur fullstack dans
+                                des missions de refonte complète de site web
+                                pour des clients comme Decathlon ou Kiabi.
+                                J'interviens principalement dans la phase de
+                                développement en créant des composants
+                                d'affichage tout en implémentant le typage ainsi
+                                que les test unitaires.
+                            </p>
+                            <small className="trad">
+                                Responsible for assisting the fullstack
+                                developer in complete website redesign for
+                                clients like Decathlon or Kiabi. I mainly
+                                intervene in the phase of development by
+                                creating display components while implementing
+                                typing as well as unit testing.
+                            </small>
+                            <div className="experience__cards">
+                                <ul className="stack__card">
+                                    <li>
+                                        <BsStackOverflow />
+                                    </li>
+                                    <li></li>
+                                    <li>TypeScript</li>
+                                    <li>Jest</li>
+                                    {/* <li><a><PiEyeClosedLight /></a></li>
                                     <li><a><PiEyeClosedLight /></a></li> */}
-                </ul>
-                <ul className="stack__card">
-                  <li>
-                    <BsStackOverflow />
-                  </li>
-                  <li>Sass</li>
-                  <li>Tailwind</li>
-                  <li>React</li>
-                  <li>Redux</li>
-                  <li>Material UI</li>
-                  {/* <li><a><PiEyeClosedLight /></a></li>
+                                </ul>
+                                <ul className="stack__card">
+                                    <li>
+                                        <BsStackOverflow />
+                                    </li>
+                                    <li>Sass</li>
+                                    <li>Tailwind</li>
+                                    <li>React</li>
+                                    <li>Redux</li>
+                                    <li>Material UI</li>
+                                    {/* <li><a><PiEyeClosedLight /></a></li>
                                     <li><a><PiEyeClosedLight /></a></li> */}
-                </ul>
-              </div>
-            </li>
-            <li className="items">
-              <h4>Sarenza (Paris) 2022-2023 - Intégratrice</h4>
-              <p className="description">
-                J'ai eu la chance de d'élaborer des nouvelles pages pour
-                Sarenza. Cela pouvait aller de contenus exclusifs comme les
-                fêtes de fin d'année, les soldes ou encore de collaborations
-                entre Sarenza et les grandes marques.Certaines pages pouvaient
-                comporter des animations léchées afin de rendre dynamique et
-                attractive l'expérience utilisateur.
-              </p>
-              <small className="trad">
-                I had the chance to develop new pages for Sarenza. This could
-                range from exclusive content like end-of-year celebrations,
-                sales or even collaborations between Sarenza and major brands.
-                Some pages possible feature polished animations to make it
-                dynamic and attractive user experience.
-              </small>
-              <div className="experience__cards">
-                <ul className="stack__card">
-                  <li>
-                    <BsStackOverflow />
-                  </li>
-                  <li>HTML 5</li>
-                  <li>CSS 3</li>
-                  <li>Jquery</li>
-                  {/* <li><a><PiEyeClosedLight /></a></li>
-                                    <li><a><PiEyeClosedLight /></a></li> */}
-                </ul>
-                <ul className="stack__card">
-                  <li>
-                    <BsStackOverflow />
-                  </li>
-                  <li>Sass</li>
-                  <li>React js</li>
-                  <li>Redux</li>
-                  <li>Css module</li>
-                  {/* <li><a><PiEyeClosedLight /></a></li>
-                                    <li><a><PiEyeClosedLight /></a></li> */}
-                </ul>
-              </div>
-            </li>
-            <li className="items">
-              <h4>Sarenza (Paris) 2022-2023 - Intégratrice</h4>
-              <p className="description">
-                J'ai eu la chance de d'élaborer des nouvelles pages pour
-                Sarenza. Cela pouvait aller de contenus exclusifs comme les
-                fêtes de fin d'année, les soldes ou encore de collaborations
-                entre Sarenza et les grandes marques.Certaines pages pouvaient
-                comporter des animations léchées afin de rendre dynamique et
-                attractive l'expérience utilisateur.
-              </p>
-              <small className="trad">
-                I had the chance to develop new pages for Sarenza. This could
-                range from exclusive content like end-of-year celebrations,
-                sales or even collaborations between Sarenza and major brands.
-                Some pages possible feature polished animations to make it
-                dynamic and attractive user experience.
-              </small>
-              <div className="experience__cards">
-                <ul className="stack__card">
-                  <li>
-                    <BsStackOverflow />
-                  </li>
-                  <li>HTML 5</li>
-                  <li>CSS 3</li>
-                  <li>Jquery</li>
-                  {/* <li><a><PiEyeClosedLight /></a></li>
-                                    <li><a><PiEyeClosedLight /></a></li> */}
-                </ul>
-                <ul className="stack__card">
-                  <li>
-                    <BsStackOverflow />
-                  </li>
-                  <li>Sass</li>
-                  <li>React js</li>
-                  <li>Redux</li>
-                  <li>Css module</li>
-                  {/* <li><a><PiEyeClosedLight /></a></li>
-                                    <li><a><PiEyeClosedLight /></a></li> */}
-                </ul>
-              </div>
-            </li>
-            <li className="items">
-              <h4>Sarenza (Paris) 2022-2023 - Intégratrice</h4>
-              <p className="description">
-                J'ai eu la chance de d'élaborer des nouvelles pages pour
-                Sarenza. Cela pouvait aller de contenus exclusifs comme les
-                fêtes de fin d'année, les soldes ou encore de collaborations
-                entre Sarenza et les grandes marques.Certaines pages pouvaient
-                comporter des animations léchées afin de rendre dynamique et
-                attractive l'expérience utilisateur.
-              </p>
-              <small className="trad">
-                I had the chance to develop new pages for Sarenza. This could
-                range from exclusive content like end-of-year celebrations,
-                sales or even collaborations between Sarenza and major brands.
-                Some pages possible feature polished animations to make it
-                dynamic and attractive user experience.
-              </small>
-              <div className="experience__cards">
-                <ul className="stack__card">
-                  <li>
-                    <BsStackOverflow />
-                  </li>
-                  <li>HTML 5</li>
-                  <li>CSS 3</li>
-                  <li>Jquery</li>
-                  {/* <li><a><PiEyeClosedLight /></a></li>
-                                    <li><a><PiEyeClosedLight /></a></li> */}
-                </ul>
-                <ul className="stack__card">
-                  <li>
-                    <BsStackOverflow />
-                  </li>
-                  <li>Sass</li>
-                  <li>React js</li>
-                  <li>Redux</li>
-                  <li>Css module</li>
-                  {/* <li><a><PiEyeClosedLight /></a></li>
-                                    <li><a><PiEyeClosedLight /></a></li> */}
-                </ul>
-              </div>
-            </li>
-            <li className="items">
-              <h4>Texeurop (Wambrechie) 2020-2022 - Modéliste 3D</h4>
-              <p className="description">
-                Chargée de concevoir des collections pour plusieurs marques via
-                l'outil CLO 3D. Voyage au Bengladesh et en Turquie afin de
-                former les confrères en usine sur les techniques et les
-                exigences du modélisme Français. Mise au point des produits et
-                intermédiaire technique direct entre les usines et les marques.
-              </p>
-              <small className="trad">
-                In charge to patternmaking collections for several brands via
-                the CLO 3D tool. Trip to Bangladesh and Turkey to train
-                colleagues in factory on the techniques and requirements of
-                French modeling. Product development and direct technical
-                intermediary between factories and brands.
-              </small>
-              <div className="experience__cards">
-                <ul className="stack__card">
-                  <li>
-                    <BsStackOverflow />
-                  </li>
-                  <li>CLO3D</li>
-                  <li>Marvelous Designer</li>
-                  <li>Lectra</li>
-                  <li>Adobe</li>
-                  {/* <li><a><PiEyeClosedLight /></a></li>
-                                    <li><a><PiEyeClosedLight /></a></li> */}
-                </ul>
-                <ul className=" travel__card ">
-                  <li>
-                    <LuPlane />{" "}
-                  </li>
-                  <li>Bengladesh</li>
-                  <li>Turkey</li>
-                  {/* <li><a><PiEyeClosedLight /></a></li>
-                                    <li><a><PiEyeClosedLight /></a></li> */}
-                </ul>
-              </div>
-            </li>
-            <li className="items">
-              <h4>Siplec E.Leclerc(Paris) 2016-2020 - Modéliste </h4>
-              <p className="description">
-                Chargée de concevoir les collections Basics de la marque
-                Tissaia. Création des bases et mise en place d'une bibliothèque
-                afin d'optimiser la conceptions des collections futurs.
-                Conception et mise au point des produits sur Gerber Accumark.
-              </p>
-              <small className="trad">
-                In charge to designing the brand’s Basics collections for
-                Tisaia. Creation of the bases and implementation of a library to
-                optimize the design of future collections. Design and product
-                development on Gerber Accumark.
-              </small>
+                                </ul>
+                            </div>
+                        </li>
 
-              <div className="experience__cards">
-                <ul className="stack__card">
-                  <li>
-                    <BsStackOverflow />
-                  </li>
-                  <li>Gerber</li>
-                  <li>Adobe</li>
-                  {/* <li><a><PiEyeClosedLight /></a></li>
-                                <li><a><PiEyeClosedLight /></a></li> */}
-                </ul>
-                <ul className=" travel__card ">
-                  <li>
-                    <LuPlane />{" "}
-                  </li>
-                  <li>India</li>
-                  {/* <li><a><PiEyeClosedLight /></a></li>
-                                <li><a><PiEyeClosedLight /></a></li> */}
-                </ul>
-              </div>
+                        <li className="items">
+                            <h4>Sarenza (Paris) 2022-2023 - Intégratrice</h4>
+                            <p className="description">
+                                J'ai eu la chance de d'élaborer des nouvelles
+                                pages pour Sarenza. Cela pouvait aller de
+                                contenus exclusifs comme les fêtes de fin
+                                d'année, les soldes ou encore de collaborations
+                                entre Sarenza et les grandes marques.Certaines
+                                pages pouvaient comporter des animations léchées
+                                afin de rendre dynamique et attractive
+                                l'expérience utilisateur.
+                            </p>
+                            <small className="trad">
+                                I had the chance to develop new pages for
+                                Sarenza. This could range from exclusive content
+                                like end-of-year celebrations, sales or even
+                                collaborations between Sarenza and major brands.
+                                Some pages possible feature polished animations
+                                to make it dynamic and attractive user
+                                experience.
+                            </small>
+                            <div className="experience__cards">
+                                <ul className="stack__card">
+                                    <li>
+                                        <BsStackOverflow />
+                                    </li>
+                                    <li>HTML 5</li>
+                                    <li>CSS 3</li>
+                                    <li>Jquery</li>
+                                    {/* <li><a><PiEyeClosedLight /></a></li>
+                                    <li><a><PiEyeClosedLight /></a></li> */}
+                                </ul>
+                                <ul className="stack__card">
+                                    <li>
+                                        <BsStackOverflow />
+                                    </li>
+                                    <li>Sass</li>
+                                    <li>React js</li>
+                                    <li>Redux</li>
+                                    <li>Css module</li>
+                                    {/* <li><a><PiEyeClosedLight /></a></li>
+                                    <li><a><PiEyeClosedLight /></a></li> */}
+                                </ul>
+                            </div>
+                        </li>
+                        <li className="items">
+                            <h4>
+                                Texeurop (Wambrechie) 2020-2022 - Modéliste 3D
+                            </h4>
+                            <p className="description">
+                                Chargée de modéliser en 3D les collections pour
+                                plusieurs marques via l'outil CLO 3D. Voyage au
+                                Bengladesh et en Turquie afin de former les
+                                confrères en usine sur les techniques et les
+                                exigences du modélisme Français. Mise au point
+                                des produits et intermédiaire technique direct
+                                entre les usines et les marques.
+                            </p>
+                            <small className="trad">
+                                In charge to patternmaking collections for
+                                several brands via the CLO 3D tool. Trip to
+                                Bangladesh and Turkey to train colleagues in
+                                factory on the techniques and requirements of
+                                French modeling. Product development and direct
+                                technical intermediary between factories and
+                                brands.
+                            </small>
+                            <div className="experience__cards">
+                                <ul className="stack__card">
+                                    <li>
+                                        <BsStackOverflow />
+                                    </li>
+                                    <li>CLO3D</li>
+                                    <li>Marvelous Designer</li>
+                                    <li>Lectra</li>
+                                    <li>Adobe</li>
+                                    {/* <li><a><PiEyeClosedLight /></a></li>
+                                    <li><a><PiEyeClosedLight /></a></li> */}
+                                </ul>
+                                <ul className=" travel__card ">
+                                    <li>
+                                        <LuPlane />{" "}
+                                    </li>
+                                    <li>Bengladesh</li>
+                                    <li>Turkey</li>
+                                    {/* <li><a><PiEyeClosedLight /></a></li>
+                                    <li><a><PiEyeClosedLight /></a></li> */}
+                                </ul>
+                            </div>
+                        </li>
+                        <li className="items">
+                            <h4>
+                                Siplec E.Leclerc(Paris) 2016-2020 - Modéliste{" "}
+                            </h4>
+                            <p className="description">
+                                Chargée de concevoir les collections Basics de
+                                la marque Tissaia. Création des bases et mise en
+                                place d'une bibliothèque afin d'optimiser la
+                                conceptions des collections futurs. Conception
+                                et mise au point des produits sur Gerber
+                                Accumark.
+                            </p>
+                            <small className="trad">
+                                In charge to designing the brand’s Basics
+                                collections for Tisaia. Creation of the bases
+                                and implementation of a library to optimize the
+                                design of future collections. Design and product
+                                development on Gerber Accumark.
+                            </small>
 
-              {/* <p><a href="" className="link knowMore"> Know more</a></p> */}
-            </li>
-          </ul>
-        </>
-      )}
-      {indexAboutVisible === 2 && (
-        <>
-          <h2 className="content-title">MY STUDIES:</h2>
-          <ul className=" education content-text">
-            <li className="education-items">
-              {/*<div className="container-logo">
+                            <div className="experience__cards">
+                                <ul className="stack__card">
+                                    <li>
+                                        <BsStackOverflow />
+                                    </li>
+                                    <li>Gerber</li>
+                                    <li>Adobe</li>
+                                    {/* <li><a><PiEyeClosedLight /></a></li>
+                                <li><a><PiEyeClosedLight /></a></li> */}
+                                </ul>
+                                <ul className=" travel__card ">
+                                    <li>
+                                        <LuPlane />{" "}
+                                    </li>
+                                    <li>India</li>
+                                    {/* <li><a><PiEyeClosedLight /></a></li>
+                                <li><a><PiEyeClosedLight /></a></li> */}
+                                </ul>
+                            </div>
+
+                            {/* <p><a href="" className="link knowMore"> Know more</a></p> */}
+                        </li>
+                    </ul>
+                </>
+            )}
+            {indexAboutVisible === 2 && (
+                <>
+                    <h2 className="content-title">MY STUDIES:</h2>
+                    <ul className=" education content-text">
+                        <li className="education-items">
+                            {/*<div className="container-logo">
                                               <img className="educationLogo" src={Shield} alt="3wa Logo"/> 
                                           </div>
                       */}
-              <p className="education-icons">
-                <GiDiploma />
-              </p>
-              <p>3WA</p>
-              <small>2022</small>
-              <small>Bootcamp 4 mois Fullstack Javascript</small>
-              <small>Diplôme Bac + 2 </small>
-              <small>(en cours d'optention)</small>
-            </li>
-            <li className="education-items">
-              <p className="education-icons">
-                <GiDiploma />
-              </p>
-              <p>BTS MMV</p>
-              <small>Mode et industrie du vêtement</small>
-              <small>Modéliste 2D-3D</small>
-              <small>2016</small>
-            </li>
-            <li className="education-items">
-              <p className="education-icons">
-                <GiDiploma />
-              </p>
-              <p>DMA</p>
-              <small>Diplôme des métiers d'Arts</small>
-              <small>Designer textile Numérique</small>
-              <small>2014</small>
-            </li>
-            <li className="education-items">
-              <p className="education-icons">
-                <BsBook />
-              </p>
-              <p>MANAA</p>
-              <small>Arts-design Numérique</small>
-              <small>2012</small>
-            </li>
-            <li className="education-items">
-              <p className="education-icons">
-                <BsBook />
-              </p>
-              <p>La Sorbonne</p>
-              <small>2011</small>
-            </li>
-            <li className="education-items">
-              <p className="education-icons">
-                <GiDiploma />
-              </p>
-              <p>BAC L</p>
-              <small>Arts et Langues</small>
-              <small>2010</small>
-            </li>
-          </ul>
-        </>
-      )}
-      <div className="btn-container">
-        <a href="#contact" className="btn btn-primary">
-          Let&apos;s talk
-        </a>
-      </div>
-    </div>
-  );
+                            <p className="education-icons">
+                                <GiDiploma />
+                            </p>
+                            <p>3WA</p>
+                            <small>2022</small>
+                            <small>Bootcamp 4 mois Fullstack Javascript</small>
+                            <small>Diplôme Bac + 2 </small>
+                            <small>(en cours d'optention)</small>
+                        </li>
+                        <li className="education-items">
+                            <p className="education-icons">
+                                <GiDiploma />
+                            </p>
+                            <p>BTS MMV</p>
+                            <small>Mode et industrie du vêtement</small>
+                            <small>Modéliste 2D-3D</small>
+                            <small>2016</small>
+                        </li>
+                        <li className="education-items">
+                            <p className="education-icons">
+                                <GiDiploma />
+                            </p>
+                            <p>DMA</p>
+                            <small>Diplôme des métiers d'Arts</small>
+                            <small>Designer textile Numérique</small>
+                            <small>2014</small>
+                        </li>
+                        <li className="education-items">
+                            <p className="education-icons">
+                                <BsBook />
+                            </p>
+                            <p>MANAA</p>
+                            <small>Arts-design Numérique</small>
+                            <small>2012</small>
+                        </li>
+                        <li className="education-items">
+                            <p className="education-icons">
+                                <BsBook />
+                            </p>
+                            <p>La Sorbonne</p>
+                            <small>2011</small>
+                        </li>
+                        <li className="education-items">
+                            <p className="education-icons">
+                                <GiDiploma />
+                            </p>
+                            <p>BAC L</p>
+                            <small>Arts et Langues</small>
+                            <small>2010</small>
+                        </li>
+                    </ul>
+                </>
+            )}
+            <div className="btn-container">
+                <a href="#contact" className="btn btn-primary">
+                    Let&apos;s talk
+                </a>
+            </div>
+        </div>
+    );
 };
 
 export default AboutText;
