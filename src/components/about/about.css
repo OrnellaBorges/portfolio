@@ -4,9 +4,17 @@
     gap: 10%; */
     margin: 2rem 2% 0;
 }
+.tex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
 
 .toto {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: blueviolet;
     /* justify-content: center;
   border: 3px solid rgb(3, 233, 245); */
 }
@@ -137,7 +145,7 @@
 .titi {
     /* border: 2px solid red;*/
     margin-left: 2%;
-    width: 50%;
+    width: 100%;
 }
 
 .about_content p {
@@ -204,7 +212,27 @@
 }
 
 /*======================= Gallery CSS ================ */
-.tata {
+
+.galleryContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sarenzaGallery {
+    margin: 10px 0;
+}
+
+/* .texGallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1%;
+    width: 100%;
+    height: fit-content;
+    margin-right: 2%;
+    display: grid;
+} */
+
+.cardsGallery {
     /* border: 3px solid green;
   margin-bottom: 2%;
   display: flex;
@@ -217,10 +245,9 @@
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    width: 50%;
+    gap: 5px;
+    width: 100%;
     height: fit-content;
-    margin-right: 20px;
 }
 
 .tata2 {
@@ -279,6 +306,27 @@ ul a img {
     transform: translate(0);
 }
 
+.videoCard {
+    /* position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0; 
+    left: 0;*/
+    height: 100%;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.video-container {
+    width: 100%;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 /*======================= MEDIA QUERIES (med devices) ================ */
 
 @media screen and (max-width: 1024px) {
@@ -305,7 +353,7 @@ ul a img {
 
     .titi {
         width: 100%;
-        margin-left: 0;
+        padding-left: 7px;
     }
 
     .gallery {
