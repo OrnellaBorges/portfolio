@@ -7,7 +7,6 @@ import { BsStackOverflow } from "react-icons/bs";
 import { LuPlane } from "react-icons/lu";
 //import { PiEyeLight } from "react-icons/pi";
 //import { PiEyeClosedLight } from "react-icons/pi";
-
 //IMPORTATION IMAGES
 //import Shield from "../../assets/shield.png";
 

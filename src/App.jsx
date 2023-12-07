@@ -8,26 +8,27 @@ import Header from "./components/header/Header";
 import Nav from "./components/nav/Nav";
 import About from "./components/about/About";
 import Skills from "./components/skills/Skills";
-import Services from "./components/services/Services";
+
 import Portfolio from "./components/portfolio/Portfolio";
-import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 
+//#MINI-Projets
+import TicTacToe from "./components/MiniProjet/TicTacToe/TicTacToe";
+import InvestCalculator from "./components/MiniProjet/InvestCalculator/InvestCalculator";
+
 function App() {
-  return (
-    <>
-      <Header />
-      <Nav />
-      <About />
-      <Skills />
-      {/* <Services /> */}
-      <Portfolio />
-      {/*<Testimonials />*/}
-      <Contact/>
-      <Footer/> 
-    </>
-  );
+    return (
+        <>
+            <Header />
+            <Nav />
+            <About />
+            <Skills />
+            <Portfolio />
+            <Contact />
+            <Footer />
+        </>
+    );
 }
 
 export default App;
