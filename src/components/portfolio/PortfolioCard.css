@@ -1,0 +1,27 @@
+#portfoliotCards {
+    padding: 1rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    text-align: center;
+    max-width: 500px;
+}
+
+#portfoliotCards .imgContainer {
+    border: 3px solid red;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#portfoliotCards:hover {
+    background-color: aliceblue;
+}
+
+/* Desktop device */
+/* 
+@media screen and (min-width: 768px){
+
+}; */

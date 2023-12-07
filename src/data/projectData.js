@@ -9,33 +9,33 @@ import B4Y from "../assets/beer.png";
 import FoodHero from "../assets/fh.png";
 import CoachMe from "../assets/coachMe.png";
 
-export const data = [
+export const projects = [
     {
         id: 1,
         image: SASS,
         title: "Saas",
         github: "https://github.com/OrnellaBorges",
-        demo: '"https://dribbble.com/Alien_pixels',
+        status: "In progress",
     },
     {
         id: 2,
         image: B4Y,
         title: "Beer4You",
         github: "https://github.com/OrnellaBorges",
-        demo: '"https://dribbble.com/Alien_pixels',
+        status: "In progress",
     },
     {
         id: 3,
         image: FoodHero,
         title: "FoodHero",
         github: "https://github.com/OrnellaBorges",
-        demo: '"https://dribbble.com/Alien_pixels',
+        status: "In progress",
     },
     {
         id: 4,
         image: CoachMe,
         title: "CoachMe",
         github: "https://github.com/OrnellaBorges",
-        demo: '"https://dribbble.com/Alien_pixels',
+        status: "In progress",
     },
 ];

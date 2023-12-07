@@ -14,8 +14,8 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 
 //#MINI-Projets
-import TicTacToe from "./components/MiniProjet/TicTacToe/TicTacToe";
-import InvestCalculator from "./components/MiniProjet/InvestCalculator/InvestCalculator";
+//import TicTacToe from "./components/MiniProjet/TicTacToe/TicTacToe";
+//import InvestCalculator from "./components/MiniProjet/InvestCalculator/InvestCalculator";
 
 function App() {
     return (

@@ -3,13 +3,13 @@
 
 /*RESET CSS*/
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  box-sizing: border-box;
-  list-style: none;
-  text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 
 /* 
@@ -19,23 +19,23 @@ body {
 
 /* VARIABLES COLOR : le :root cible la balise html directement qui est le  */
 :root {
-  /*colors*/
-  --color-bg: #262c3a;
-  --color-bg-variant: #363643;
-  --color-primary: #5a94ff;
-  --color-primary-variant: #2d5589;
-  --color-white: #fff;
-  --color-light: rgba(255, 255, 255, 0.6);
+    /*colors*/
+    --color-bg: #262c3a;
+    --color-bg-variant: #363643;
+    --color-primary: #5a94ff;
+    --color-primary-variant: #2d5589;
+    --color-white: #fff;
+    --color-light: rgba(255, 255, 255, 0.6);
 
-  /*effects*/
-  --transition: all 400ms ease;
+    /*effects*/
+    --transition: all 400ms ease;
 
-  /* containers width*/
-  --container-width-lg: 75%;
-  --container-width-md: 86%;
-  --container-width-sm: 90%;
+    /* containers width*/
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
 
-  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
   
@@ -43,131 +43,122 @@ body {
     color: rgba(255, 255, 255, 0.87);
     background-color: #242424;
    */
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-  background-color: #262c3a;
-  color: var(--color-white);
-  line-height: 1.7;
-  /*   background-image: url(../src/assets/bg-texture.png); */
+    font-family: "Poppins", sans-serif;
+    background-color: #262c3a;
+    color: var(--color-white);
+    line-height: 1.7;
+    /*   background-image: url(../src/assets/bg-texture.png); */
 }
 
 /*======================= GENERAL STYLES ======================*/
 
 .container {
-  width: var(--container-width-md-lg);
-  margin: 0 auto;
+    width: var(--container-width-md-lg);
+    margin: 0 auto;
 }
 
 h1,
 h2,
 h3,
 h5 {
-  font-weight: 500;
+    font-weight: 500;
 }
 
 h4 {
-  font-weight: 600;
-  font-size: 20px;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 h1 {
-  font-size: 2.5rem;
-}
-
-section {
-  margin: 2rem;
+    font-size: 2.5rem;
 }
 
 section > h2,
 section > h5 {
-  text-align: center;
-  color: var(--color-light);
+    text-align: center;
+    color: var(--color-light);
 }
 
 section > h2 {
-  color: #fff;
-  margin-bottom: 2rem;
+    color: #fff;
+    margin-bottom: 2rem;
 }
 
 .text-light {
-  color: var(--color-light);
+    color: var(--color-light);
 }
 
 a {
-  color: var(--color-light);
-  transition: var(--transition);
-  /*border: 1px solid yellow;*/
+    color: var(--color-light);
+    transition: var(--transition);
+    /*border: 1px solid yellow;*/
 }
 
 a:hover {
-  color: white;
+    color: white;
 }
 
 .btn {
-  width: max-content;
-  display: inline-block;
-  color: var(--color-light);
-  padding: 0.75rem 1.2 rem;
-  cursor: pointer;
-  border: 1px solid var(--color-light);
-  transition: var(--transition);
-  border-radius: 5px;
-  padding: 8px;
-  /*margin-left: 10px; a voir peut etre a deplacer */
+    width: max-content;
+    display: inline-block;
+    color: var(--color-light);
+    cursor: pointer;
+    border: 1px solid var(--color-light);
+    transition: var(--transition);
+    border-radius: 5px;
+    padding: 8px;
 }
 
 .btn:hover {
-  background: rgb(255, 255, 255, 0.3);
-  color: var(--color-white);
-  border-color: transparent;
+    background: rgb(255, 255, 255, 0.3);
+    color: var(--color-white);
+    border-color: transparent;
 }
 
 .btn-primary {
-  background: var(--color-white);
-  color: var(--color-bg);
+    background: var(--color-white);
+    color: var(--color-bg);
 }
 
 img {
-  display: block;
-  width: 100%;
-  object-fit: cover;
+    display: block;
+    width: 100%;
+    object-fit: cover;
 }
 
 /*=======================MEDIA QUERIES (medium devices)================ */
 
 @media screen and (max-width: 1024px) {
-  .container {
-    width: var(--container-width-md);
-  }
-  section {
-    margin-top: 3rem;
-  }
+    .container {
+        width: var(--container-width-md);
+    }
 }
 
 /*=======================MEDIA QUERIES (small devices)================ */
 
 @media screen and (max-width: 600px) {
-  .container {
-    width: var(--container-width-sm);
-  }
-  section > h2 {
-    margin-top: 2rem;
-  }
+    .container {
+        width: var(--container-width-sm);
+    }
+    section > h2 {
+        margin-top: 2rem;
+    }
 }
 
 /*=========== REACT BASIC CSS ================*/
@@ -211,18 +202,18 @@ button:hover {
 
 button:focus,
 button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+    outline: 4px auto -webkit-focus-ring-color;
 }
 
 @media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+    :root {
+        color: #213547;
+        background-color: #ffffff;
+    }
+    a:hover {
+        color: #747bff;
+    }
+    button {
+        background-color: #f9f9f9;
+    }
 }

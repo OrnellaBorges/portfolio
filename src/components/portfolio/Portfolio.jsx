@@ -1,18 +1,66 @@
 import React from "react";
 import "./portfolio.css";
-import { data } from "../../data/projectData";
-import TicTacToe from "../MiniProjet/TicTacToe/TicTacToe";
-import InvestCalculator from "../MiniProjet/InvestCalculator/InvestCalculator";
+//import { projets } from "../../data/projectData.js";
 
-//import {CgUnavailable} from 'react-icons/cg'
+import PortfolioCards from "./PortfolioCards";
+import Section from "../containers/Section";
+
+import SASS from "../../assets/Sass.png";
+import B4Y from "../../assets/beer.png";
+import FoodHero from "../../assets/fh.png";
+import CoachMe from "../../assets/coachMe.png";
+import HeaderSection from "../header/HeaderSection";
+
+const projets = [
+    {
+        id: 1,
+        image: SASS,
+        title: "Saas",
+        github: "https://github.com/OrnellaBorges",
+        status: "In progress",
+    },
+    {
+        id: 2,
+        image: B4Y,
+        title: "Beer4You",
+        github: "https://github.com/OrnellaBorges",
+        status: "In progress",
+    },
+    {
+        id: 3,
+        image: FoodHero,
+        title: "FoodHero",
+        github: "https://github.com/OrnellaBorges",
+        status: "In progress",
+    },
+    {
+        id: 4,
+        image: CoachMe,
+        title: "CoachMe",
+        github: "https://github.com/OrnellaBorges",
+        status: "In progress",
+    },
+];
 
 const Portfolio = () => {
     return (
-        <>
-            <section id="portfolio">
-                <h5>My Recent Work</h5>
-                <h2>Portfolio</h2>
-                <div className="container portfolio__container">
+        <Section id="portfolio">
+            <HeaderSection
+                firstTitle="My Recent Work"
+                secondTitle="Portfolio"
+            />
+            <ul id="ul-container">
+                {projets.map((projet, index) => (
+                    <PortfolioCards
+                        key={index}
+                        src={projet.image}
+                        status="In Progress"
+                        title={projet.title}
+                    />
+                ))}
+            </ul>
+
+            {/* <div className="container portfolio__container">
                     {data.map(({ id, image, title, github, demo }) => {
                         return (
                             <article key={id} className="portfolio__item">
@@ -32,18 +80,12 @@ const Portfolio = () => {
                                     >
                                         Let&apos;s talk
                                     </a>
-                                    {/* <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a> */}
                                 </div>
                             </article>
                         );
                     })}
-                </div>
-                <div id="mini-projets">
-                    <TicTacToe />
-                    <InvestCalculator />
-                </div>
-            </section>
-        </>
+                </div> */}
+        </Section>
     );
 };
 
