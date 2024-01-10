@@ -40,7 +40,9 @@ const AboutText = ({ indexAboutVisible }) => {
             {indexAboutVisible === 1 && (
                 <>
                     <h2 className="content-title">MY EXPERIENCE:</h2>
-                    {/* //mettre un slider de text et d'image*/}
+                    <div>
+                        
+                    </div>
                     <ul className="experience content-text">
                         <li className="items">
                             <h4>Assistante developpeuse Fullstack JS</h4>
@@ -234,11 +236,11 @@ const AboutText = ({ indexAboutVisible }) => {
                             <p className="education-icons">
                                 <GiDiploma />
                             </p>
-                            <p>3WA</p>
-                            <small>2022</small>
-                            <small>Bootcamp 4 mois Fullstack Javascript</small>
+                            <p>3W Academy</p>
+                            <small>Bootcamp 6 mois Fullstack Javascript</small>
                             <small>Diplôme Bac + 2 </small>
-                            <small>(en cours d'optention)</small>
+                            <small>(Foodhero App / React-Node)</small>
+                            <small>Fevrier-2023/juillet-2023</small>
                         </li>
                         <li className="education-items">
                             <p className="education-icons">
@@ -262,7 +264,7 @@ const AboutText = ({ indexAboutVisible }) => {
                             <p className="education-icons">
                                 <BsBook />
                             </p>
-                            <p>MANAA</p>
+                            <p>MANAA (prepa)</p>
                             <small>Arts-design Numérique</small>
                             <small>2012</small>
                         </li>

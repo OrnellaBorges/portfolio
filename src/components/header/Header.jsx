@@ -2,7 +2,7 @@
 import "./header.css";
 
 // IMPORT COMPONENTS
-import CTA from "./CTA";
+//import CTA from "./CTA";
 import OrnellaMobile from "../../assets/Ornella-nb-mobile.jpg";
 import Ornella from "../../assets/Ornella-nb.jpg";
 import HeaderSocials from "./HeaderSocials";
@@ -24,7 +24,7 @@ const Header = () => {
         </div>
         <small></small>
         <HeaderSocials />
-        <CTA />
+        {/* <CTA /> */}
       </div>
     </header>
   );

@@ -1,45 +1,45 @@
 .about__container {
-    /* display: grid;
+  /* display: grid;
     grid-template-columns: 35% 50%;
     gap: 10%; */
-    margin: 2rem 2% 0;
+  margin: 2rem 2% 0;
 }
 .tex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
 }
 
 .toto {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    /* justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  /* justify-content: center;
   border: 3px solid rgb(3, 233, 245); */
 }
 
 .about__me {
-    width: 100%;
-    aspect-ratio: 1/1;
-    /* border-radius: 2rem; */
-    /* background: linear-gradient(45deg, transparent, var(--color-primary), transparent); */
-    display: flex;
-    gap: 4%;
-    place-items: center;
-    border: 1px solid red;
+  width: 100%;
+  aspect-ratio: 1/1;
+  /* border-radius: 2rem; */
+  /* background: linear-gradient(45deg, transparent, var(--color-primary), transparent); */
+  display: flex;
+  gap: 4%;
+  place-items: center;
+  border: 1px solid red;
 }
 
 .about__me-image {
-    border-radius: 4rem;
-    overflow: hidden;
-    width: 78%;
-    height: 50%;
-    /* transform: rotate(10deg);
+  border-radius: 4rem;
+  overflow: hidden;
+  width: 78%;
+  height: 50%;
+  /* transform: rotate(10deg);
     transition: var(--transition); */
 }
 
 .description {
-    padding-bottom: 25px;
+  padding-bottom: 25px;
 }
 
 /* .about__me-image:hover{
@@ -47,330 +47,330 @@
 } */
 
 .content-title {
-    text-align: center;
-    margin: 2% 0;
+  text-align: center;
+  margin: 2% 0;
 }
 .about__cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .items {
-    margin-bottom: 2%;
-    text-align: center;
+  margin-bottom: 2%;
+  text-align: center;
 }
 
 .experience__cards {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    border-radius: 1rem;
-    margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 1rem;
+  margin-top: 20px;
 }
 .trad {
-    color: var(--color-light);
-    padding-bottom: 20px;
+  color: var(--color-light);
+  padding-bottom: 20px;
 }
 
 .stack__card {
-    background: #363643;
-    border: 1px solid transparent;
-    border-radius: 1rem;
-    padding: 2%;
-    text-align: center;
-    transition: var(--transition);
-    width: 30%;
-    border-radius: 1rem;
+  background: #363643;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2%;
+  text-align: center;
+  transition: var(--transition);
+  width: 30%;
+  border-radius: 1rem;
 }
 
 .travel__card {
-    background: #363643;
-    border: 1px solid transparent;
-    border-radius: 1rem;
-    padding: 2%;
-    text-align: center;
-    transition: var(--transition);
-    width: 30%;
-    border-radius: 1rem;
+  background: #363643;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2%;
+  text-align: center;
+  transition: var(--transition);
+  width: 30%;
+  border-radius: 1rem;
 }
 
 .about__card {
-    background: transparent;
-    border: 1px solid transparent;
-    border-radius: 1rem;
-    padding: 2%;
-    text-align: center;
-    transition: var(--transition);
-    width: 30%;
-    cursor: pointer;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2%;
+  text-align: center;
+  transition: var(--transition);
+  width: 30%;
+  cursor: pointer;
 }
 
 .about__card:hover {
-    background-color: var(--color-bg-variant);
+  background-color: var(--color-bg-variant);
 }
 
 .about__card.active {
-    background: var(--color-light);
-    border-color: transparent;
-    cursor: default;
+  background: var(--color-light);
+  border-color: transparent;
+  cursor: default;
 }
 
 .about__icon {
-    color: white;
-    font-size: 2rem;
-    margin-bottom: 1rem;
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 .about__card h5 {
-    font-size: 0.95rem;
+  font-size: 0.95rem;
 }
 
 .link {
-    color: var(--color-light);
+  color: var(--color-light);
 }
 
 .about__card small {
-    font-size: 0.7rem;
-    color: var(--color-light);
+  font-size: 0.7rem;
+  color: var(--color-light);
 }
 
 .titi {
-    /* border: 2px solid red;*/
-    margin-left: 2%;
-    width: 100%;
+  /* border: 2px solid red;*/
+  margin: 0 auto;
+  width: 90%;
 }
 
 .about_content p {
-    margin: 2rem 0 2.6rem;
-    color: var(--color-light);
+  margin: 2rem 0 2.6rem;
+  color: var(--color-light);
 }
 
 .education {
-    background-color: transparent;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    text-align: center;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
 .education-items {
-    width: 40%;
+  width: 40%;
 }
 .education-icons {
-    color: white;
-    font-size: 2rem;
+  color: white;
+  font-size: 2rem;
 }
 
 .stack-container {
-    display: flex;
-    border: 3px solid red;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 30%;
+  display: flex;
+  border: 3px solid red;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
 }
 .travel-container {
-    display: flex;
-    border: 3px solid red;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 30%;
+  display: flex;
+  border: 3px solid red;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
 }
 
 .stack-container li {
-    padding: 2px;
+  padding: 2px;
 }
 
 .education-items {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2%;
 }
 .container-logo {
-    width: 20%;
+  width: 20%;
 }
 
 .mindset-content {
-    text-align: center;
+  text-align: center;
 }
 
 .btn-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
 }
 
 /*======================= Gallery CSS ================ */
 
 .galleryContainer {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+  flex-direction: column;
+  width: 100%;
+  margin: 20px auto;
 }
 
 .sarenzaGallery {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 .cardsGallery {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 5px;
-    width: 100%;
-    height: fit-content;
+  display: flex;
+  justify-content: center;
+  /* grid-template-columns: repeat(auto-fill, 25%); */
+  gap: 1%;
+  width: 100%;
 }
 
 .tata2 {
-    max-width: 1500px;
-    margin: 0 auto;
-
-    list-style-type: none;
-    justify-content: center;
-    border: 5px solid purple;
+  max-width: 1500px;
+  margin: 0 auto;
+  list-style-type: none;
+  justify-content: center;
+  border: 5px solid purple;
 }
 
 .profil-card {
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-    transition: transform 0.4s ease-out;
-    aspect-ratio: 1/ 1;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.4s ease-out;
+  aspect-ratio: 1/ 1;
+  max-width: 300px;
 }
 
 .profil-img {
-    width: 100%;
-    object-fit: cover;
+  width: 100%;
+  object-fit: cover;
 }
 
 ul a img {
-    width: 100%;
+  width: 100%;
 }
 
 .profil-info {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding: 10px;
-    background-color: rgb(22, 22, 43);
-    border-top: 1px solid transparent;
-    text-align: center;
-    transform: translateY(100%);
-    transition: transform 0.3s ease-in-out;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(22, 22, 43);
+  border-top: 1px solid transparent;
+  text-align: center;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in-out;
 }
 
 .profil-sentence {
-    font-size: 16px;
-    font-weight: 500;
-    font-style: italic;
-    color: white;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: italic;
+  color: white;
 }
 
 .profil-card:hover .profil-info {
-    transform: translate(0);
+  transform: translate(0);
 }
 
 .videoCard {
-    /* position: absolute;
+  /* position: absolute;
     top: 0;
     right: 0;
     bottom: 0; 
     left: 0;*/
-    height: 100%;
-    width: 100%;
-    margin-top: 5px;
+  height: 100%;
+  width: 100%;
+  margin-top: 5px;
 }
 
 .video-container {
-    width: 100%;
+  width: 100%;
 }
 
 video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /*======================= MEDIA QUERIES (med devices) ================ */
 
 @media screen and (max-width: 1024px) {
-    .about__container {
-        grid-template-columns: 1fr;
-        gap: 0;
-    }
+  .about__container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
 
-    .about__me {
-        width: 100%;
-        margin: 2rem auto 2rem;
-    }
+  .about__me {
+    width: 100%;
+    margin: 2rem auto 2rem;
+  }
 
-    .about-content p {
-        margin: 1rem 0 1.5rem;
-    }
+  .about-content p {
+    margin: 1rem 0 1.5rem;
+  }
 
-    .tata {
-        display: none;
-    }
-    .toto {
-        justify-content: center;
-    }
+  .tata {
+    display: none;
+  }
+  .toto {
+    justify-content: center;
+  }
 
-    .titi {
-        width: 100%;
-        padding-left: 7px;
-    }
+  .titi {
+    width: 100%;
+    padding-left: 7px;
+  }
 
-    .gallery {
-        display: none;
-    }
+  .gallery {
+    display: none;
+  }
 }
 
 /*======================= MEDIA QUERIES (small devices)================ */
 
 @media screen and (max-width: 600px) {
-    .about__me {
-        width: 65%;
-        margin: 0 auto 3rem;
-    }
+  .about__me {
+    width: 65%;
+    margin: 0 auto 3rem;
+  }
 
-    .toto {
-        flex-direction: column;
-        justify-content: center;
-    }
+  .toto {
+    flex-direction: column;
+    justify-content: center;
+  }
 
-    .about__cards {
-        grid-template-columns: 1fr 1fr;
-        gap: 1rem;
-    }
+  .about__cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
 
-    .about__content {
-        text-align: center;
-        margin: 0 2%;
-    }
+  .about__content {
+    text-align: center;
+    margin: 0 2%;
+  }
 
-    .about__content p {
-        margin: 1.5rem 0;
-        text-align: center;
-    }
+  .about__content p {
+    margin: 1.5rem 0;
+    text-align: center;
+  }
 
-    .education-icons {
-        font-size: 1rem;
-    }
-    .education {
-        justify-content: center;
-        margin: 0 auto;
-    }
+  .education-icons {
+    font-size: 1rem;
+  }
+  .education {
+    justify-content: center;
+    margin: 0 auto;
+  }
 
-    .galleryContainer {
-        display: none;
-    }
+  .galleryContainer {
+    display: none;
+  }
 }

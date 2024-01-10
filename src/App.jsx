@@ -12,6 +12,7 @@ import Skills from "./components/skills/Skills";
 import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+import TestComponent from "./components/TestComponent";
 
 //#MINI-Projets
 //import TicTacToe from "./components/MiniProjet/TicTacToe/TicTacToe";
@@ -23,6 +24,7 @@ function App() {
             <Header />
             <Nav />
             <About />
+            <TestComponent />
             <Skills />
             <Portfolio />
             <Contact />
