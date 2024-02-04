@@ -1,8 +1,8 @@
 .about__container {
-  /* display: grid;
-    grid-template-columns: 35% 50%;
-    gap: 10%; */
+  border: 3px solid gray;
   margin: 2rem 2% 0;
+  width: 100%;
+  margin: 0 auto;
 }
 .tex {
   display: flex;
